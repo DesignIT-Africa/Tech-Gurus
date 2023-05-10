@@ -145,3 +145,48 @@ button{
 i{
     color: yellowgreen;
 }
+.last{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 120px;
+}
+
+.last li{
+    list-style-type: none;
+    margin-left: 130px;
+    text-align: center;
+}
+
+.last ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    font-family: sans-serif;
+}
+.Whatsapp{
+    color: green;
+}
+.facebook{
+    color: blue;
+}
+.instagram{
+    color: rgb(226, 38, 216);
+}
+.twitter{
+  color: #1bc1ef;
+}
+.foot3{
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    background-color: antiquewhite;
+    height: 50px;
+}
