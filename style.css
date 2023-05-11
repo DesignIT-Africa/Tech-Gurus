@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+#res{
+    width:100%;
+    height:700px;
+    padding: 1px;
+    margin: 3px;
+    background: url("../images/food.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.h{
+    width: 390px;
+    height: 500px;
+    background-image: linear-gradient(to left, white, rgb(226, 228, 119));
+    text-align: center;
+    padding: 20px;
+    margin-left: 38%;
+    margin-top: 100px;
+    color: rgb(43, 41, 41);
+    }
+div hr{
+    height: 4px;
+    background-color: greenyellow;
+    border-color: rgb(15, 196, 24);
+    margin-top: 20px;
+}
+div p{margin-bottom: 15px;}
+h4{padding-bottom: 5px;}
+.m{background-color: rgb(36, 37, 41);
+width:100%;
+height: 40vh;
+margin: 3px;
+padding: 3px;
+font-size: 23px;
+color: white;
+}
+.m p{text-align: center;}
+button{
+    height: 50px;
+    padding: 10px 15px;
+    background-color: rgb(136, 161, 151);
+    margin-left: 710px;
+    border: none;
+    border-radius: 50%;
+    animation-name: re;
+    animation-duration:3s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+a{text-decoration: none;
+color: rgb(29, 29, 32);
+cursor: pointer;
+margin: 5px;
+}
+h3{
+font-size:25px;
+padding: 5px;
+margin: 5px;
+animation-name: st;
+    animation-duration:3s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+h3::before{
+    content: ":: ";
+        color: rgb(224, 57, 16);}
+h3::after{
+    content: " ::";
+    color:  rgb(224, 57, 16);}
+@keyframes st{
+    from{margin-left: 0%;}
+    to{margin-left: 85%;}}
+a:hover{
+    color: blue;
+}
+@keyframes re{
+    from {transform: rotate(0deg);}
+to{transform: rotate(360deg);}
+}
+.y{width:383px;
+    height: 240px;
+    background-color: azure;
+border: 1px solid yellow;
+display: inline-block;
+margin:1.5px;
+transition: all 1s;
+}
+.w{
+    background-color: rgb(36, 37, 41);
+width:100%;
+height: 64vh;
+margin: 5px;
+padding: 5px;
+}
+
+.w img:hover{transform: translateY(-3%);}
+    .m p{text-align: center;}
+        
+        @media only screen  and (max-width:600px){
+            #res{width:600px;
+                height:600px;
+                padding: 1px;
+                margin: 1;
+                background: url("../images/food.jpg");
+                background-repeat: repeat;
+                background-size: 600px;
+                background-attachment: fixed;}
+                .h{
+                    width: 260px;
+                    height: 530px;
+                    background-image: linear-gradient(to left, white, rgb(226, 228, 119));
+                    text-align: center;
+                    padding: 15px;
+                    margin-left: 30%;
+                    margin-top: 80px;
+                    color: rgb(43, 41, 41);}
+                div hr{height:2px;}
+                h2{font-size: 17px;}
+                .m{background-color: rgb(36, 37, 41);
+                    width:600px;
+                    height: 66vh;
+                    }
+                    button{margin-left:300px;
+                    animation-name: re;
+                     animation-duration:2s;
+                    animation-delay: 0;
+                    animation-iteration-count: infinite;
+                     animation-timing-function: linear;
+}
+                h3::before{
+                    content: ":: ";
+                     color: rgb(224, 57, 16);}
+                h3::after{
+                     content: " ::";
+                     color:  rgb(224, 57, 16);}
+                @keyframes st{
+                    from{margin-left: 0%;}
+                    to{margin-left: 50%;}}
+                a:hover{
+                    color: blue;
+                        }
+                @keyframes re{
+                    from {transform: rotate(0deg);}
+                    to{transform: rotate(360deg);}
+                        }
+                        .y{width:270px;
+                            height: 150px;
+                            background-color: azure;
+                        border: 1px solid yellow;
+                        display: inline-block;
+                        margin:10px;
+                        }
+                        
+                        img{height:21vh;
+                            width:260px;}
+                .w{
+                height: 104vh;}
+        }
