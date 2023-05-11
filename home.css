@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.con{
+    background-color: lightblue;
+    height: 40px;
+    width: 1080px;
+}
+
+.con > marquee{
+    font-size: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.home{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 1080px;
+    align-items: center;
+    text-align: center;
+}
+.menu li{
+    list-style-type: none;
+    margin: 20px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+a.link{
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins';
+    padding-top: 45px;
+}
+a:hover, .fa-cart-shopping:hover{
+    color: grey;
+}
+.menu{
+    display: flex;
+}
+.fa-cart-shopping{
+    color: black;
+}
+
+.hero{
+    height: 420px;
+    width: 1080px;
+    align-items: center;
+    background: url(./img/photo-1504674900247-0877df9cc836.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.hero h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Poppins" 'Nunito';
+    font-weight: bolder;
+    padding-top: 60px;
+}
+
+.hero p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 30px;
+}
+
+button.view{
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 60px;
+    border: burlywood 3px solid;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 350px;
+}
+
+button.book{
+    color: white;
+    background-color: burlywood;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 60px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+}
+.story{
+    color: black;
+    font-size: 40px;
+   font-family: "Poppins";
+    text-align: center;
+}
+.story > hr{
+    width: 20%;
+    border: 3px solid burlywood;
+    margin-left: 430px;
+}
+
+.story p{
+    font-size: 20px;
+}
+.container{
+    height: 450px;
+    width: 1080px;
+    display: flex;
+}
+.conA,.conB{
+    width: 520px;
+}
+.conA > h1{
+    text-align: left;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 60px;
+}
+.explore hr{
+    height: 5px;
+    background-color: burlywood;
+    border: none;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.con1{
+    display: flex;
+    width: 85vw;
+    height: 50vh;
+    margin-left: 90px;
+}
+.con1a,.con1b,.con1c,.con1d{
+    border-radius: 10px;
+    height: 290px;
+    width: 400px;
+    margin-left: 20px;
+    box-shadow: 0px 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.content{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.content img{
+    border-radius: 50%;
+}
+.content:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.here{
+    line-height: 30px;
+    font-size: 10px;
+}
+
+i{
+    color: green;
+    font-size: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+    cursor:pointer;
+}
+.fieldseter{
+    display: flex;
+}
+fieldset{
+    border-radius: 15px;
+    background-color: #ddd;
+    height: 53vh;
+    width: 55vh;
+    border:  none;
+    margin: 35px;
+    padding: 10px auto;
+}
+legend {
+    text-align: center;
+    align-items: center;
+}
+
+fieldset > p,fieldset > h4{
+    text-align: center;
+    font-size: 10px;
+    line-height: 25px;
+}
+
+fieldset > legend img{
+    border-radius: 50%;
+}
+
+.filder{
+    margin: 35px auto;
+    padding: 10px auto;
+}
+
+.filder > img{
+    height: 120px;
+    width: 120px;
+}
+
+.last{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 120px;
+}
+
+.last li{
+    list-style-type: none;
+    /* margin: 30px; */
+}
+
+.last ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    font-family: sans-serif;
+}
+.Whatsapp{
+    color: green;
+}
+.facebook{
+    color: blue;
+}
+.instagram{
+    color: rgb(226, 38, 216);
+}
+.twitter{
+  color: #1bc1ef;
+}
+.foot3{
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    background-color: antiquewhite;
+    height: 50px;
+}

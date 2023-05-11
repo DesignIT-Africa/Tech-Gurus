@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.con > marquee{
+    font-size: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.home{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 1080px;
+    align-items: center;
+    text-align: center;
+}
+.menu li{
+    list-style-type: none;
+    margin: 20px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+a.link{
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+a:hover, .fa-cart-shopping:hover{
+    color: grey;
+}
+.menu{
+    display: flex;
+}
+.fa-cart-shopping{
+    color: black;
+}
+.container{
+    height: 110vh;
+    width: 98vw;
+    padding: 20px 220px;
+    background-image: url(./img/istockphoto-1371318211-170667a.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.con1,.con2{
+    display: flex;
+}
+.con1 > .text h4{
+    color: rgb(254, 254, 254);
+    font-weight: 600;
+    font-size: 35px;
+}
+.text{
+    padding: 0px 5px;
+}
+.text > p{
+    color: white;
+    font-size: 5px;
+    font-weight: 400;
+    padding: 0px 10px;
+}
+
+.content > h3{
+    color: white;
+    font-weight: 600;
+}
+.content > p{
+    font-weight: 400;
+    font-size: 5px;
+}
+
+.con2a{
+    width: 290px;
+    height: 170px;
+    background-color: yellowgreen;
+    margin-right:55px;
+    border-radius: 0px 20px 0px 0px;
+    margin-left: 70px;
+}
+.con2b{
+    width: 290px;
+    height: 230px;
+    background-color: rgb(222, 218, 235);
+    margin-right:55px;
+    border-radius: 0px 0px 0px 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.context{
+font-size: 5px;
+color: white;
+padding-top: 25px;
+margin-left: 10px;
+font-weight: 300;
+text-align: center;
+}
+
+.context > h6{
+word-spacing: 3px;
+letter-spacing: 2px;
+font-size: 20px;
+}
+.context > p {
+font-size: 5px;
+font-family: sans-serif;
+font-weight: 200;
+}
+.context > hr{
+    margin-left: 90px;
+}
+
+.con2b input{
+ text-align: center;
+ border-radius: 20px;
+}
+
+button{
+    color: white;
+    background-color: burlywood;
+    border-radius: 20px;
+    border: none;
+    padding: 0px 20px 0px 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+i{
+    color: yellowgreen;
+}
+.last{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 120px;
+}
+
+.last li{
+    list-style-type: none;
+    margin-left: 130px;
+    text-align: center;
+}
+
+.last ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    font-family: sans-serif;
+}
+.Whatsapp{
+    color: green;
+}
+.facebook{
+    color: blue;
+}
+.instagram{
+    color: rgb(226, 38, 216);
+}
+.twitter{
+  color: #1bc1ef;
+}
+.foot3{
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    background-color: antiquewhite;
+    height: 50px;
+}
