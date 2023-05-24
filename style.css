@@ -1,166 +1,239 @@
 *{
     margin:0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    align-self: auto;
 }
-#res{
+.home-page{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    height: 100vh;
+}
+.our-story{
     width:100%;
-    height:700px;
-    padding: 1px;
-    margin: 3px;
-    background: url("../images/food.jpg");
-    background-repeat: repeat;
-    background-size: cover;
+    height:50%;
+    position: relative;
+    background: url("1684599297131.png");
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  
+    
 }
-.h{
-    width: 390px;
-    height: 500px;
-    background-image: linear-gradient(to left, white, rgb(226, 228, 119));
-    text-align: center;
-    padding: 20px;
-    margin-left: 38%;
-    margin-top: 100px;
-    color: rgb(43, 41, 41);
+.our-storyheader{position: absolute;
+    top: 60px;
+    width:5%;
+    margin-left: 47px;
+    color: white;
+     }
+   
+.our-storyheader1{
+    color: white;
+    position: absolute;
+    top: 80px;
+    margin-left: 37px;
+} 
+.our-storysection{
+    width:100%;
+    height:300px;
+    background-color: white;
+    border:none;
+    margin: 80px;
+    margin-left: 3px;
+    padding:10px;
+    transition: 1s;}
+    
+.img1{float:left;
+    margin-right: 39px;
+    padding-right: 30px;
+    margin-top: 0;}
+
+.our-storysection::after{content: "";
+    clear: both;
+    display:table;}
+
+ .our-story-content{
+    font-size: 22px;
+    padding: 10px;
+    margin: 15px;
+    text-align: justify;
     }
-div hr{
-    height: 4px;
-    background-color: greenyellow;
-    border-color: rgb(15, 196, 24);
+h3{text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;}
+/*.our-storysection:hover{
+    transform: translateY(-10px);
+    background-image:linear-gradient(to left, white, rgb(82, 74, 74))}*/
+ .choose-us{
+    width:100%;
+    height:400px;
+    background-color: white;
+    border:none;
+    padding: 5px;
+    margin: 15px;
+        }
+.choose-us h3{
+    text-align: center;
+    margin-top: 7px;
+    padding: 7px;
+        }
+.choose-us p{
+    text-align: center;
+        }
+            
+.choose-us h1{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.first-paragraph{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 25px;
+    color: brown;
+    font-size: 19px;
+}
+.div1{
+    height:200px;
+    width:250px;
+    border: 1px solid rgb(112, 112, 110);
+    padding:5px;
+    font-size: 15px;display: inline-block;
+    margin-right: 90px;
+    margin-top: 15px;
+    margin-left: 75px;
+    border-radius: 25px;
+
+   
+}
+ 
+
+.div2{
+    height:200px;
+    width:250px;
+    border: 1px solid rgb(112, 112, 110);
+    padding:5px;display: inline-block;
+    font-size: 15px;
+    margin: 40px 40px;
+    margin-top: 15px;
+    border-radius: 25px;
+}    
+.div3{
+    height:200px;
+    width:250px;
+    border: 1px solid rgb(112, 112, 110);
+    padding:5px;display: inline-block;
+    font-size: 15px;
+    margin: 40px 90px;margin-top: 15px;
+    border-radius: 25px;
+}  
+ .div4{
+    height:200px;
+    width:250px;
+    border: 1px solid rgb(112, 112, 110);
+    padding:5px;
+    font-size: 15px;display: inline-block;
+    margin: 40px 40px;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+
+.gif{
+    width:100%;
+    height:15%;
+    position: relative;
+    background: url("1684622191787.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.fa-chess-king{
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.fa-truck-field{
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 5px;
+}
+.fa-bowl-food{
+    height: 40px;
+    margin-left: 100px;
     margin-top: 20px;
 }
-div p{margin-bottom: 15px;}
-h4{padding-bottom: 5px;}
-.m{background-color: rgb(36, 37, 41);
-width:100%;
-height: 40vh;
-margin: 3px;
-padding: 3px;
-font-size: 23px;
-color: white;
+.fa-people-group{
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
-.m p{text-align: center;}
-button{
-    height: 50px;
-    padding: 10px 15px;
-    background-color: rgb(136, 161, 151);
-    margin-left: 710px;
+.gifheader{
+    position: absolute;
+    top: 20px;
+    font-size: 40px;
+    left:470px;
+    color: white;
+         }
+footer{
+    background-color:  rgb(219, 219, 226);
+    width: 100%;
+    height: 400px;
+    margin-top: 70px;
     border: none;
-    border-radius: 50%;
-    animation-name: re;
-    animation-duration:3s;
-    animation-delay: 0;
-    animation-iteration-count: infinite;
+    background-image: url("1684616245900.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: right bottom;
+    padding:60px; 
 }
-a{text-decoration: none;
-color: rgb(29, 29, 32);
-cursor: pointer;
-margin: 5px;
+input{
+    border: 1px solid brown;
+    width:450px;
+    height: 30px;
+    padding: 15px;
+    margin-left: 280px;
+    background-color: white;
+    margin-top: 3px;
 }
-h3{
-font-size:25px;
-padding: 5px;
-margin: 5px;
-animation-name: st;
-    animation-duration:3s;
-    animation-delay: 0;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+button{
+    border: none;
+    width:100px;
+    height: 33px;;
+    background-color: brown;
+    color: white;
+}
+footer >p, h4{
+    font-size: 20px;
+    margin-top:5px;
+}
+.tableheader{
+    width:69%;
+    margin-top: 40px;
+    height: 3px;
+    background-color: black;
+}
+table{
+    margin:40px;
+ }
+td{
+     padding-left: 100px;
+     padding-bottom: 10px;
+}
+th{
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+.fa-utensils{
+    height: 20px;
+    background-color: yellow;
+    margin-right: 10px;
+
 }
 
-h3::before{
-    content: ":: ";
-        color: rgb(224, 57, 16);}
-h3::after{
-    content: " ::";
-    color:  rgb(224, 57, 16);}
-@keyframes st{
-    from{margin-left: 0%;}
-    to{margin-left: 85%;}}
-a:hover{
-    color: blue;
-}
-@keyframes re{
-    from {transform: rotate(0deg);}
-to{transform: rotate(360deg);}
-}
-.y{width:383px;
-    height: 240px;
-    background-color: azure;
-border: 1px solid yellow;
-display: inline-block;
-margin:1.5px;
-transition: all 1s;
-}
-.w{
-    background-color: rgb(36, 37, 41);
-width:100%;
-height: 64vh;
-margin: 5px;
-padding: 5px;
-}
 
-.w img:hover{transform: translateY(-3%);}
-    .m p{text-align: center;}
-        
-        @media only screen  and (max-width:600px){
-            #res{width:600px;
-                height:600px;
-                padding: 1px;
-                margin: 1;
-                background: url("../images/food.jpg");
-                background-repeat: repeat;
-                background-size: 600px;
-                background-attachment: fixed;}
-                .h{
-                    width: 260px;
-                    height: 530px;
-                    background-image: linear-gradient(to left, white, rgb(226, 228, 119));
-                    text-align: center;
-                    padding: 15px;
-                    margin-left: 30%;
-                    margin-top: 80px;
-                    color: rgb(43, 41, 41);}
-                div hr{height:2px;}
-                h2{font-size: 17px;}
-                .m{background-color: rgb(36, 37, 41);
-                    width:600px;
-                    height: 66vh;
-                    }
-                    button{margin-left:300px;
-                    animation-name: re;
-                     animation-duration:2s;
-                    animation-delay: 0;
-                    animation-iteration-count: infinite;
-                     animation-timing-function: linear;
-}
-                h3::before{
-                    content: ":: ";
-                     color: rgb(224, 57, 16);}
-                h3::after{
-                     content: " ::";
-                     color:  rgb(224, 57, 16);}
-                @keyframes st{
-                    from{margin-left: 0%;}
-                    to{margin-left: 50%;}}
-                a:hover{
-                    color: blue;
-                        }
-                @keyframes re{
-                    from {transform: rotate(0deg);}
-                    to{transform: rotate(360deg);}
-                        }
-                        .y{width:270px;
-                            height: 150px;
-                            background-color: azure;
-                        border: 1px solid yellow;
-                        display: inline-block;
-                        margin:10px;
-                        }
-                        
-                        img{height:21vh;
-                            width:260px;}
-                .w{
-                height: 104vh;}
-        }
+ 
