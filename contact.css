@@ -7,9 +7,15 @@
     font-family: "Poppins", sans-serif;
 }
 
+.con{
+    background-color: rgba(235, 150, 40, 0.541);
+    height: 40px;
+    width: 1350px;
+}
+
 .con > marquee{
     font-size: 20px;
-    color: white;
+    color: black;
     font-family: "Poppins", sans-serif;
 }
 
@@ -18,7 +24,7 @@
     display: flex;
     justify-content: space-around;
     height: 50px;
-    width: 1080px;
+    width: 1350px;
     align-items: center;
     text-align: center;
 }
@@ -30,6 +36,9 @@
     display: flex;
     justify-content: space-around;
 }
+.menu a:hover{
+    color: rgb(237, 142, 18);
+}
 .logo{
     display: flex;
     text-align: center;
@@ -38,24 +47,20 @@
 }
 a.link{
     color: black;
-    text-decoration: none;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
 }
 a:hover, .fa-cart-shopping:hover{
     color: grey;
-}
-a:hover{
-    text-decoration: underline;
 }
 .menu{
     display: flex;
 }
 .fa-cart-shopping{
-    color: black;
+    color: white;
 }
 .container{
     height: 110vh;
-    width: 98vw;
+    width: 98.5vw;
     padding: 20px 220px;
     background-image: url(./img/istockphoto-1371318211-170667a.jpg);
     background-position: 50% 50%;
@@ -65,7 +70,22 @@ a:hover{
     background-blend-mode: overlay;
     background-color: rgba(10, 10, 10, 0.5);
 }
-
+button.book{
+    color: white;
+    background-color: rgba(235, 150, 40, 0.541);
+    text-align: center;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+}
+button.book:hover{
+    transform: scale(1.1);
+    background-color: rgb(237, 142, 18);
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
 .con1,.con2{
     display: flex;
 }
@@ -87,6 +107,7 @@ a:hover{
 .content > h3, .content > h5{
     color: white;
     font-weight: 600;
+    font-size: 30px;
 }
 .content > p{
     font-weight: 400;
@@ -94,16 +115,16 @@ a:hover{
 }
 
 .con2a{
-    width: 290px;
-    height: 170px;
+    width: 420px;
+    height: 370px;
     background-color: rgb(235, 149, 36);
-    margin-right:55px;
+    margin-right:75px;
     border-radius: 0px 20px 0px 0px;
-    margin-left: 70px;
+    margin-left: 110px;
 }
 .con2b{
-    width: 290px;
-    height: 230px;
+    width: 420px;
+    height: 390px;
     background-color: rgb(222, 218, 235);
     margin-right:55px;
     border-radius: 0px 0px 0px 20px;
@@ -134,9 +155,15 @@ font-weight: 200;
     margin-left: 90px;
 }
 
-.con2b input{
- text-align: center;
- border-radius: 20px;
+.con2b input, .con2b textarea{
+ align-items: center;
+ width: 320px;
+ height: 47px;
+ border-radius: 10px;
+}
+
+.con2b input::placeholder, .con2b textarea::placeholder{
+    padding-left: 10px;
 }
 
 button{
@@ -150,7 +177,7 @@ button{
 }
 
 button:hover{
-    background-color:green
+    background-color: rgb(237, 142, 18);
 }
 
 i{
@@ -180,7 +207,10 @@ a{
     color: black;
     text-decoration: none;
     align-items: center;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+a:hover{
+    color: rgb(237, 142, 18);
 }
 .Whatsapp{
     color: green;
@@ -200,4 +230,8 @@ a{
     font-family: 'Lucida Sans';
     background-color: antiquewhite;
     height: 50px;
+}
+
+.foot3 > a:hover{
+    color: rgb(237, 142, 18);
 }

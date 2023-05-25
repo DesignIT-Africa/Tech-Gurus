@@ -8,14 +8,14 @@
 }
 
 .con{
-    background-color: lightblue;
+    background-color: rgba(235, 150, 40, 0.541);
     height: 40px;
     width: 1350px;
 }
 
 .con > marquee{
     font-size: 20px;
-    color: white;
+    color: black;
     font-family: "Poppins", sans-serif;
 }
 
@@ -52,16 +52,12 @@ a:hover, .fa-cart-shopping:hover{
     color: grey;
 }
 .menu a:hover{
-    color: grey;
-    text-decoration: underline;
+    color: rgb(237, 142, 18);
 }
 .menu{
     display: flex;
 }
-.fa-cart-shopping{
-    color: black;
-    font-size: 15px;
-}
+
 
 .hero{
     height: 420px;
@@ -71,6 +67,8 @@ a:hover, .fa-cart-shopping:hover{
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+    background-blend-mode: overlay; 
+    background-color: rgba(10, 10, 10, 0.5);
 }
 
 .hero h1{
@@ -85,7 +83,7 @@ a:hover, .fa-cart-shopping:hover{
 .hero p{
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Poppins", sans-serif;
     padding-top: 30px;
 }
@@ -101,29 +99,41 @@ button.view{
     text-decoration: none;
     color: white;
     cursor: pointer;
-    margin-left: 550px;
+    margin-left: 600px;
 }
  
 button.view:hover{
-    background-color: black;
+    background-color: rgb(237, 142, 18);
+    border-radius: 15px;
 }
 
 button.book{
     color: white;
-    background-color: burlywood;
+    background-color: rgba(235, 150, 40, 0.541);
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Poppins", sans-serif;
-    margin-top: 60px;
     cursor: pointer;
+    border-radius: 10px;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 15px;
 }
 button.book:hover{
     transform: scale(1.1);
-    z-index: 2;
-    background-color: rgb(239, 195, 138);
+    background-color: rgb(237, 142, 18);
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
 }
+
+.drop-cap::first-letter {
+    color: rgb(245, 191, 122);
+    float: left;
+    font-size: 5em;
+    margin: 0 .1em 0 0;
+    line-height: 0.85;
+  }
+  .drop-cap{
+    line-height: 38px;
+  }
 .story{
     color: black;
     font-size: 40px;
@@ -148,6 +158,9 @@ button.book:hover{
 }
 .conA,.conB{
     width: 690px;
+}
+.conB{
+    margin-left: 20px;
 }
 .conA > h1{
     text-align: left;
@@ -180,7 +193,11 @@ button.book:hover{
     height: 280px;
     width: 350px;
     margin-left: 20px;
-    box-shadow: 0px 3px 3px 5px rgba(0, 0, 0, 0.3);
+    background-color: antiquewhite;
+}
+
+.con1a:hover, .con1b:hover, .con1c:hover, .con1d:hover{
+    box-shadow: 0px 3px 3px 4px rgba(0, 0, 0, 0.3);
 }
 
 .content{
@@ -191,7 +208,7 @@ button.book:hover{
 .content img{
     border-radius: 50%;
 }
-.content:hover{
+.content:hover, .filder img:hover{
     transform: scale(1.1);
     z-index: 2;
 }
@@ -201,7 +218,7 @@ button.book:hover{
     font-size: 10px;
 }
 
-i{
+.fa-arrow-right, .fab{
     color: green;
     font-size: 10px;
     margin-left: 150px;
@@ -222,17 +239,25 @@ fieldset{
     margin: 35px;
     padding: 5px auto;
 }
-legend {
+
+legend, fieldset > h4 {
     text-align: center;
     align-items: center;
 }
 
-fieldset > p,fieldset > h4{
-    text-align: center;
-    font-size: 15px;
-    line-height: 30px;
-}
 
+fieldset > p{
+    text-align: left;
+    font-size: 18px;
+    line-height: 35px;
+    margin-left: 5px;
+}
+.star{
+    text-align: center;
+}
+.star:hover{
+    color: rgb(237, 142, 18);
+}
 fieldset > legend img{
     border-radius: 50%;
 }
@@ -243,6 +268,7 @@ fieldset > legend img{
 .filder{
     margin: 35px auto;
     padding: 10px auto;
+    text-align: center;
 }
 
 .filder > img{
@@ -274,6 +300,10 @@ a{
     align-items: center;
     font-family: "Poppins", sans-serif;
 }
+
+a:hover{
+    color: rgb(237, 142, 18);
+}
 .Whatsapp{
     color: green;
     font-size: 20px;
@@ -296,4 +326,7 @@ a{
     font-family: 'Poppins',sans-serif;
     background-color: antiquewhite;
     height: 50px;
+}
+.foot3 > a:hover{
+    color: rgb(237, 142, 18);
 }
