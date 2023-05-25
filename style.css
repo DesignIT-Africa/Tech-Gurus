@@ -220,6 +220,12 @@ footer >p, h4{
 table{
     margin:40px;
  }
+ .foodly{
+    letter-spacing: 3px; 
+    padding-left:2px;
+ }
+ .first-tabledata{
+ padding-left:2px}
 td{
      padding-left: 100px;
      padding-bottom: 10px;
