@@ -18,14 +18,12 @@
     background: url("1684599297131.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
-   
-  
-    
-}
+    background-size: cover;}
 .our-storyheader{position: absolute;
     top: 60px;
     width:5%;
+    height:3px;
+    background-color: white;
     margin-left: 47px;
     color: white;
      }
@@ -35,149 +33,82 @@
     position: absolute;
     top: 80px;
     margin-left: 37px;
-} 
-.our-storysection{
-    width:100%;
-    height:300px;
+}
+.container-fluid{
     background-color: white;
-    border:none;
-    margin: 80px;
-    margin-left: 3px;
+    margin-top: 90px;
     padding:10px;
-    transition: 1s;}
+    transition: 1s;
+}
     
 .img1{float:left;
     margin-right: 39px;
     padding-right: 30px;
     margin-top: 0;}
 
-.our-storysection::after{content: "";
-    clear: both;
-    display:table;}
-
- .our-story-content{
-    font-size: 22px;
-    padding: 10px;
-    margin: 15px;
-    text-align: justify;
-    }
-h3{text-align: center;
-    padding: 5px;
-    margin-bottom: 15px;}
-/*.our-storysection:hover{
-    transform: translateY(-10px);
-    background-image:linear-gradient(to left, white, rgb(82, 74, 74))}*/
- .choose-us{
-    width:100%;
-    height:400px;
-    background-color: white;
-    border:none;
-    padding: 5px;
-    margin: 15px;
-        }
-.choose-us h3{
-    text-align: center;
-    margin-top: 7px;
-    padding: 7px;
-        }
-.choose-us p{
-    text-align: center;
-        }
-            
-.choose-us h1{
-    text-align: center;
-    padding: 5px;
-    margin-bottom: 2px;
+.foodlyheader{
+    width:19%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    height: 3px;
+    display: inline-block;
+  
 }
 .first-paragraph{
     text-align: center;
     padding: 5px;
+    margin-bottom: 55px;
+        }   
+.h2{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.col{
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-left: 35px;
+    border-radius: 25px;
+    height:235px;
     margin-bottom: 25px;
-    color: brown;
-    font-size: 19px;
-}
-.div1{
-    height:200px;
-    width:250px;
-    border: 1px solid rgb(112, 112, 110);
-    padding:5px;
-    font-size: 15px;display: inline-block;
-    margin-right: 90px;
-    margin-top: 15px;
-    margin-left: 75px;
-    border-radius: 25px;
-
-   
-}
- 
-
-.div2{
-    height:200px;
-    width:250px;
-    border: 1px solid rgb(112, 112, 110);
-    padding:5px;display: inline-block;
-    font-size: 15px;
-    margin: 40px 40px;
-    margin-top: 15px;
-    border-radius: 25px;
-}    
-.div3{
-    height:200px;
-    width:250px;
-    border: 1px solid rgb(112, 112, 110);
-    padding:5px;display: inline-block;
-    font-size: 15px;
-    margin: 40px 90px;margin-top: 15px;
-    border-radius: 25px;
-}  
- .div4{
-    height:200px;
-    width:250px;
-    border: 1px solid rgb(112, 112, 110);
-    padding:5px;
-    font-size: 15px;display: inline-block;
-    margin: 40px 40px;
-    margin-top: 15px;
-    border-radius: 25px;
-}
-
-.gif{
-    width:100%;
-    height:15%;
-    position: relative;
-    background: url("1684622191787.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;   
+    text-align: center;
 }
 .fa-chess-king{
     height: 40px;
-    margin-left: 100px;
     margin-top: 20px;
 
 }
 .fa-truck-field{
     height: 40px;
-    margin-left: 100px;
     margin-top: 20px;
-    font-size: 5px;
 }
 .fa-bowl-food{
     height: 40px;
-    margin-left: 100px;
     margin-top: 20px;
-}
+}/*
 .fa-people-group{
     height: 40px;
-    margin-left: 100px;
     margin-top: 20px;
+}*/
+.h5{
+    text-align: center;
 }
+.gif{
+    width:100%;
+    height:115px;
+    position: relative;
+    background: url("1684622191787.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-top: 75px;
+    margin-bottom: 69px;  
+}  
 .gifheader{
     position: absolute;
-    top: 20px;
+    top: 30px;
     font-size: 40px;
     left:470px;
-    color: white;
          }
 footer{
     background-color:  rgb(219, 219, 226);
@@ -190,6 +121,12 @@ footer{
     background-size: 350px;
     background-position: right bottom;
     padding:60px; 
+}
+.footer-h4{
+    margin-left: 65px;
+}
+.footer-paragraph{
+    margin-left: 60px;
 }
 input{
     border: 1px solid brown;
@@ -206,38 +143,35 @@ button{
     height: 33px;;
     background-color: brown;
     color: white;
-}
-footer >p, h4{
-    font-size: 20px;
-    margin-top:5px;
-}
-.tableheader{
+}.tableheader{
     width:69%;
     margin-top: 40px;
     height: 3px;
     background-color: black;
+    margin-left: 65px;
 }
 table{
-    margin:40px;
+    margin:45px;
+    position: relative;
  }
  .foodly{
-    letter-spacing: 3px; 
-    padding-left:2px;
+    letter-spacing: 7px; 
+    padding-left:9px;
  }
  .first-tabledata{
- padding-left:2px}
+ padding-left:9px}
 td{
-     padding-left: 100px;
+     padding-left: 140px;
      padding-bottom: 10px;
 }
 th{
-    padding-left: 100px;
+    padding-left: 140px;
     padding-bottom: 10px;
 }
 .fa-utensils{
     height: 20px;
     background-color: yellow;
-    margin-right: 10px;
+    margin-right: 13px;
 
 }
 
