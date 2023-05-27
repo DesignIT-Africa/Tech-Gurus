@@ -73,6 +73,7 @@
     height:235px;
     margin-bottom: 25px;
     text-align: center;
+    border: 1px solid black;
 }
 .fa-chess-king{
     height: 40px;
@@ -111,6 +112,11 @@
     font-size: 40px;
     left:470px;
          }
+.overlay{
+    position: absolute;
+    left:0;
+    right:0;
+     }
 footer{
     background-color:  rgb(247, 247, 250);
     width: 100%;
@@ -184,11 +190,20 @@ th{
 }
 /* responsiveness*/
 @media only screen and (max-width:400px){
+    .home-page{
+        margin-left: 0px;
+        padding: 2px;
+        margin-right: 0px;
+    }
     .img1{
         padding-bottom: 45px;
         width:400px;
         padding-top: 30px;
     }
+    .gifheader{
+        font-size: 18px;
+        left:70px;
+             }
     .foodlyheader{
         width:29%;
 }
@@ -215,8 +230,10 @@ th{
     footer{
         height: 800px;
         margin-top: 100px;
-        padding-top:60px; 
+        padding-top: 60px; 
         position: relative;
+        background-size: 384px;
+        background-position: bottom;
         }
     .footer-h4{
          margin-left: 35px;
@@ -234,9 +251,8 @@ th{
     table{
         margin:15px;
          }
-     .tableheader{
-        margin-bottom: 30px;
-           
+    .tableheader{
+        margin-bottom: 30px;   
         }
     .foodly{
         letter-spacing: 5px;} 
@@ -244,6 +260,7 @@ th{
         padding-left: 25px;
         opacity: 0.5;
         font-size: 12px;
+        padding-bottom: 18px;
         }
     th{
         padding-left: 25px;
@@ -254,8 +271,8 @@ th{
         margin-right: 5px;
         }
     .display-9{
-        margin-left: 150px;
-        bottom: 260px;
+        margin-left: 129px;
+        bottom: -30px;
         font-size:12px;
         }
 
