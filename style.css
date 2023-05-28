@@ -43,9 +43,10 @@
 }
     
 .img1{float:left;
-    margin-right: 39px;
+    margin-right: 37px;
     padding-right: 30px;
-    margin-top: 0;}
+    margin-top: 0;
+    }
 
 .foodlyheader{
     width:19%;
@@ -197,13 +198,16 @@ th{
     }
     .img1{
         padding-bottom: 45px;
-        width:400px;
+        width:350px;
         padding-top: 30px;
     }
     .gifheader{
-        font-size: 18px;
-        left:70px;
-             }
+        position: absolute;
+        top: 33px;
+        font-size: 22px;
+        text-align: center;
+         left:10px;
+                 }
     .foodlyheader{
         width:29%;
 }
@@ -220,13 +224,6 @@ th{
         height:280px;
         margin-bottom: 35px;
 }
-    .gifheader{
-        position: absolute;
-        top: 30px;
-        font-size: 22px;
-        text-align: center;
-        left:10px;
-         }
     footer{
         height: 800px;
         margin-top: 100px;
@@ -236,20 +233,20 @@ th{
         background-position: bottom;
         }
     .footer-h4{
-         margin-left: 35px;
+         margin-left: 30px;
         }
     input{
-        width:300px;
-        padding: 25px;
-        margin-left: 5px;
+        width:265px;
+        padding: 10px;
+        margin-left: 3px;
         margin-top: 33px;
         }
     button{
         margin-top: 20px;
-        margin-left: 100px;
+        margin-left: 60px;
         }
     table{
-        margin:15px;
+        margin:8px;
          }
     .tableheader{
         margin-bottom: 30px;   
@@ -257,14 +254,14 @@ th{
     .foodly{
         letter-spacing: 5px;} 
     td{
-        padding-left: 25px;
+        padding-left: 8px;
         opacity: 0.5;
         font-size: 12px;
-        padding-bottom: 18px;
+        padding-bottom: 10px;
         }
     th{
-        padding-left: 25px;
-        padding-bottom: 10px;
+        padding-left: 8px;
+        padding-bottom: 16px;
         font-size: 12px;
         }
     .fa-utensils{
@@ -277,6 +274,96 @@ th{
         }
 
 }
+@media only screen and (max-width:576px){
+    .home-page{
+        margin-left: 0px;
+        padding: 2px;
+        margin-right: 0px;
+    }
+    .img1{
+        padding-bottom: 45px;
+        width:430px;
+        padding-top: 30px;
+    }
+    .gifheader{
+        position: absolute;
+        top: 35px;
+        font-size: 22px;
+        text-align: center;
+         left:15px;
+                 }
+    .foodlyheader{
+        width:29%;
+}
+    .container-fluid{
+        background-color: white;
+        margin-top: 40px;
+        padding:10px;
+        transition: 1s;
+}
+    .display-7{
+        text-align: justify;
+}
+    .col{
+        height:280px;
+        margin-bottom: 35px;
+}
+    footer{
+        height: 800px;
+        margin-top: 100px;
+        padding-top: 60px; 
+        position: relative;
+        background-size: 409px;
+        background-position: bottom;
+        }
+    .footer-h4{
+         margin-left: 30px;
+        }
+    input{
+        width:275px;
+        padding: 25px;
+        margin-left: 29px;
+        margin-top: 33px;
+        }
+    button{
+        margin-top: 20px;
+        margin-left: 120px;
+        }
+    table{
+        margin:25px;
+         }
+    .tableheader{
+        margin-bottom: 30px;   
+        }
+    .foodly{
+        letter-spacing: 5px;} 
+    td{
+        padding-left: 18px;
+        opacity: 0.5;
+        font-size: 12px;
+        padding-bottom: 18px;
+        }
+    th{
+        padding-left: 18px;
+        padding-bottom: 18px;
+        font-size: 12px;
+        }
+    .fa-utensils{
+        margin-right: 5px;
+        }
+    .display-9{
+        margin-left: 129px;
+        bottom: -30px;
+        font-size:12px;
+        }
+
+}
+    
+     
+
+
+
+ 
 
 
 
