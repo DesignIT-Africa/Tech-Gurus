@@ -1,0 +1,84 @@
+body{
+    /* overflow: hidden; */
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#middle{
+    float: inline-end;
+}
+.img{
+    width: 25em;
+    height: 23em;
+    background-color: red;
+    /* position: relative; */
+    animation: example 8s ease-out 3;
+    animation-fill-mode: both;
+    
+}
+@keyframes example {
+    0% {filter: blur(8px);
+  -webkit-filter: blur(8px); height: 23px; width: 23px; top: 23em;}
+    1% {
+    filter: blur(18px);
+  -webkit-filter: blur(8px); height: 23px; width: 23px; top: 23em;
+    }
+}
+div{
+    margin: 15px;
+    width: 25rem;
+    height: 23em;
+    background-color: white;
+}
+    h3{
+    color: burlywood;
+    text-align: center;
+    padding-top: 62px; 
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h3, h1, p{
+    text-align: center;
+    padding-bottom: 9px;
+}
+
+h1{
+    margin: auto;
+}
+#menu-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0px 0px;
+    
+}
+@media (max-width: 980px){
+    #menu-container{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+   div {
+    height: 38em;
+    margin: 16px 16px;
+   }
+   img {
+    animation: example 8s 3;
+    animation-fill-mode: both; 
+    position: relative;
+    margin-bottom: 0px;
+}
+h3{
+    padding-top: 23px;
+}
+@keyframes example {
+    0% {filter: blur(8px);
+  -webkit-filter: blur(8px); height: 23px; width: 23px; top: 20em;}
+    1% {
+    filter: blur(18px);
+  -webkit-filter: blur(8px); height: 23px; width: 23px; top: 20em;
+    }
+   
+   }
+    body{
+        align-items: center;
+    }
+}
