@@ -5,34 +5,83 @@
     align-self: auto;
 }
 .home-page{
-    background-color: white;
-    margin: 5px;
-    padding: 5px;
+   background-color: white;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
     height: 100vh;
 }
+
+nav{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    margin: 0;
+}
+.vector{
+    margin-left: 50px;
+}
+.foodly-icon{ margin-right:30%;
+        letter-spacing: 7px;   
+}
+.login-button{
+    background-color: #FFBA08;
+    border-radius: 5px;
+    height:30px;
+}
+.login-link{
+        color: white;
+}
+.about{
+    color: rgba(28, 49, 68, 0.75);;
+}
+ul{
+    list-style-type: none;
+    }
+li {
+    float: left;
+    padding-top: 20px;
+}
+.nav-item{
+    padding-left: 60px;    
+}
+li a{
+    text-decoration: none;
+    color:#1C3144;    
+}
+.active{
+    color: #FFBA08;
+}
+.socials{
+    margin-left: 70px;
+}
 .our-story{
     width:100%;
-    height:50%;
+    height:70%;
     position: relative;
-    background: url("1684599297131.png");
+    background: url("Rectangle\ 36.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;}
 .our-storyheader{position: absolute;
-    top: 60px;
+    top: 50px;
     width:5%;
-    height:3px;
-    background-color: white;
-    margin-left: 47px;
-    color: white;
-     }
+    border: 3px solid white;
+    margin-left: 67px;
+         }
    
 .our-storyheader1{
     color: white;
     position: absolute;
-    top: 80px;
-    margin-left: 37px;
+    top: 90px;
+    margin-left: 57px;
+    line-height: 5%;
+
+    
+}
+h6{color: #851D41;
+
+    
 }
 
 .container-fluid{
@@ -46,21 +95,28 @@
     margin-right: 37px;
     padding-right: 30px;
     margin-top: 0;
+
     }
 
 .foodlyheader{
     width:19%;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     margin-left: 5px;
-    height: 3px;
+    height: 0px;
+    border: 2px solid;
     display: inline-block;
+    color: #851D41;
   
 }
 .first-paragraph{
     text-align: center;
     padding: 5px;
     margin-bottom: 55px;
-        }   
+    color: #851D41;
+        } 
+.display-7{
+    font-size: 18px;
+}  
 .h2{
     text-align: center;
     padding: 5px;
@@ -100,18 +156,23 @@
     width:100%;
     height:115px;
     position: relative;
-    background: url("1684622191787.png");
+    background-image: url("Rectangle\ 41.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
     margin-top: 75px;
-    margin-bottom: 69px;  
+    margin-bottom: 69px;
+
+      
 }  
 .gifheader{
     position: absolute;
     top: 30px;
     font-size: 40px;
-    left:470px;
+    left:380px;
+    color: #FFBA08;
+    
+
          }
 .overlay{
     position: absolute;
@@ -119,14 +180,15 @@
     right:0;
      }
 footer{
-    background-color:  rgb(247, 247, 250);
+    
+    background-color:  rgb(219, 219, 226, .1);
     width: 100%;
     height: 450px;
     margin-top: 70px;
     border: none;
-    background-image: url("1684616245900.jpg");
+    background-image: url("Group\ 24.png");
     background-repeat: no-repeat;
-    background-size: 350px;
+    background-size: 203px;
     background-position: right bottom;
     padding:60px; 
     position: relative;
@@ -135,7 +197,7 @@ footer{
     margin-left: 65px;
 }
 input{
-    border: 1px solid brown;
+    border: 1px solid #851D41;
     width:450px;
     height: 30px;
     padding: 15px;
@@ -147,13 +209,13 @@ button{
     border: none;
     width:100px;
     height: 33px;;
-    background-color: brown;
+    background-color: #851D41;
     color: white;
 }.tableheader{
     width:69%;
     margin-top: 40px;
     height: 3px;
-    background-color: black;
+    background-color:  #1C3144;;
     margin-left: 65px;
 }
 table{
@@ -176,10 +238,9 @@ th{
     padding-left: 140px;
     padding-bottom: 10px;
 }
-.fa-utensils{
-    height: 20px;
-    background-color: yellow;
-    margin-right: 13px;
+.layer2{
+    
+    margin-right: 3px;
 
 }
 .display-9{
@@ -190,16 +251,231 @@ th{
     opacity: 0.5;
 }
 /* responsiveness*/
+
+@media only screen and (max-width:330px){
+    .home-page{
+        margin-left: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+    
+    nav{
+        height: 40px;
+    }
+    .vector{
+        margin-left: 5px;
+        width: 20px;
+    }
+    .foodly-icon{ margin-right:8px;
+            letter-spacing: 3px;
+            font-size: 12px;
+            margin-left: 2px;   
+    }
+    .login-button{
+        background-color: #FFBA08;
+        border-radius: 5px;
+        height:20px;
+        margin-top: 30px;
+    }
+    .login-link{
+            color: white;
+    }
+    ul{
+        list-style-type: none;
+        }
+    li {
+        float: left;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    .nav-item{
+        padding-left: 12px;
+          
+    }
+    li a{
+        text-decoration: none;
+        color:#1C3144;    
+    }
+    .active{
+        color: #FFBA08;
+    }
+    .socials{
+        margin-left: 2px;
+        width: 5px;
+    }
+        
+    .our-story{
+        height:35%;
+        background-size: 700px;}
+    .our-storyheader{
+            top: 30px;
+            width:19%;
+                 }
+     .our-storyheader1{
+            top: 70px;
+        }
+    .img1{
+        padding-bottom: 45px;
+        width:320px;
+        padding-top: 30px;
+        position: absolute;
+        bottom: -200px;
+        z-index: 1;
+
+    }
+    .h2{
+        margin-top: 180px;
+    }
+    .gifheader{
+        position: absolute;
+        top: 35px;
+        font-size: 22px;
+        text-align: center;
+         left:15px;
+                 }
+    .foodlyheader{
+        width:29%;
+}
+    .container-fluid{
+        background-color: white;
+        margin-top: 20px;
+        padding:10px;
+        transition: 1s;
+        position: relative;
+}
+    .display-7{
+        text-align: justify;
+        padding-bottom: 70px;
+        padding-top: 5px;
+}
+.my-4{
+    padding-bottom: 0;
+}
+    .col{
+        height:280px;
+        margin-bottom: 35px;
+}
+    footer{
+        height: 800px;
+        margin-top: 100px;
+        padding-top: 60px; 
+        position: relative;
+        background-size: 170px;
+        background-position: bottom;
+        }
+    .footer-h4{
+         margin-left: 30px;
+        }
+    input{
+        width:255px;
+        padding: 25px;
+        margin-left: 10px;
+        margin-top: 33px;
+        }
+    button{
+        margin-top: 20px;
+        margin-left: 90px;
+        }
+    table{
+        margin:12px;
+         }
+    .tableheader{
+        margin-bottom: 30px;   
+        }
+    .foodly{
+        letter-spacing: 3px;} 
+    td{
+        padding-left: 10px;
+        opacity: 0.5;
+        font-size: 11px;
+        padding-bottom: 18px;
+        }
+    th{
+        padding-left: 10px;
+        padding-bottom: 18px;
+        font-size: 11px;
+        }
+    .display-9{
+        margin-left: 99px;
+        bottom: -30px;
+        font-size:12px;
+        }
+
+}
+
 @media only screen and (max-width:400px){
     .home-page{
         margin-left: 0px;
-        padding: 2px;
+        padding: 0px;
         margin-right: 0px;
     }
+nav{
+    height: 40px;
+}
+.vector{
+    margin-left: 5px;
+    width: 20px;
+}
+.foodly-icon{ margin-right:8px;
+        letter-spacing: 3px;
+        font-size: 12px;
+        margin-left: 2px;   
+}
+.login-button{
+    background-color: #FFBA08;
+    border-radius: 5px;
+    height:20px;
+    padding-top: 2px;
+}
+.login-link{
+        color: white;
+}
+ul{
+    list-style-type: none;
+    }
+li {
+    float: left;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.nav-item{
+    padding-left: 12px;
+      
+}
+li a{
+    text-decoration: none;
+    color:#1C3144;    
+}
+.active{
+    color: #FFBA08;
+}
+.socials{
+    margin-left: 2px;
+    width: 5px;
+}
+    
+.our-story{
+    height:30%;
+    background-size: 700px;}
+    .our-storyheader{
+        top: 30px;
+        width:19%;
+             }
+    .our-storyheader1{
+        top: 70px;
+    }
+
     .img1{
         padding-bottom: 45px;
-        width:350px;
+        width: 400px;
         padding-top: 30px;
+        position: absolute;
+        bottom: -200px;
+        z-index: 1;
+
+    }
+    .h2{
+        margin-top: 180px;
     }
     .gifheader{
         position: absolute;
@@ -216,10 +492,16 @@ th{
         margin-top: 40px;
         padding:10px;
         transition: 1s;
-}
+        position: relative;
+    }
     .display-7{
-        text-align: justify;
-}
+            text-align: justify;
+            padding-bottom: 70px;
+            padding-top: 5px;
+    }
+    .my-4{
+        padding-bottom: 0;
+    }
     .col{
         height:280px;
         margin-bottom: 35px;
@@ -229,7 +511,7 @@ th{
         margin-top: 100px;
         padding-top: 60px; 
         position: relative;
-        background-size: 384px;
+        background-size: 220px;
         background-position: bottom;
         }
     .footer-h4{
@@ -238,12 +520,12 @@ th{
     input{
         width:265px;
         padding: 10px;
-        margin-left: 3px;
+        margin-left: 30px;
         margin-top: 33px;
         }
     button{
         margin-top: 20px;
-        margin-left: 60px;
+        margin-left: 99px;
         }
     table{
         margin:8px;
@@ -254,36 +536,102 @@ th{
     .foodly{
         letter-spacing: 5px;} 
     td{
-        padding-left: 8px;
+        padding-left: 18px;
         opacity: 0.5;
         font-size: 12px;
         padding-bottom: 10px;
         }
     th{
-        padding-left: 8px;
+        padding-left: 18px;
         padding-bottom: 16px;
         font-size: 12px;
         }
-    .fa-utensils{
+    .layer2{
         margin-right: 5px;
+        width: 20px;
         }
     .display-9{
-        margin-left: 129px;
+        margin-left: 109px;
         bottom: -30px;
         font-size:12px;
         }
+    }
 
-}
+
 @media only screen and (max-width:576px){
     .home-page{
         margin-left: 0px;
-        padding: 2px;
+        padding: 0px;
         margin-right: 0px;
     }
+    
+    nav{
+        height: 40px;
+    }
+    .vector{
+        margin-left: 5px;
+        width: 20px;
+    }
+    .foodly-icon{ margin-right:8px;
+            letter-spacing: 3px;
+            font-size: 12px;
+            margin-left: 2px;   
+    }
+    .login-button{
+        background-color: #FFBA08;
+        border-radius: 5px;
+        height:20px;
+        margin-top: 30px;
+    }
+    .login-link{
+            color: white;
+    }
+    ul{
+        list-style-type: none;
+        }
+    li {
+        float: left;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    .nav-item{
+        padding-left: 12px;
+          
+    }
+    li a{
+        text-decoration: none;
+        color:#1C3144;    
+    }
+    .active{
+        color: #FFBA08;
+    }
+    .socials{
+        margin-left: 2px;
+        width: 5px;
+    }
+        
+    .our-story{
+        height:25%;
+        background-size: 700px;}
+        .our-storyheader{
+            top: 30px;
+            width:19%;
+                 }
+        .our-storyheader1{
+            top: 70px;
+        }
+        
     .img1{
         padding-bottom: 45px;
         width:430px;
         padding-top: 30px;
+        position: absolute;
+        bottom: -200px;
+        z-index: 1;
+
+    }
+    .h2{
+        margin-top: 180px;
     }
     .gifheader{
         position: absolute;
@@ -300,10 +648,18 @@ th{
         margin-top: 40px;
         padding:10px;
         transition: 1s;
+        position: relative;
+    }
+        .display-7{
+            text-align: justify;
+            padding-bottom: 70px;
+            padding-top: 5px;
+    }
+    .my-4{
+        padding-bottom: 0;
+    }
 }
-    .display-7{
-        text-align: justify;
-}
+
     .col{
         height:280px;
         margin-bottom: 35px;
@@ -313,7 +669,7 @@ th{
         margin-top: 100px;
         padding-top: 60px; 
         position: relative;
-        background-size: 409px;
+        background-size: 190px;
         background-position: bottom;
         }
     .footer-h4{
@@ -357,14 +713,3 @@ th{
         font-size:12px;
         }
 
-}
-    
-     
-
-
-
- 
-
-
-
- 
