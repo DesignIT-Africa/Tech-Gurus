@@ -22,7 +22,15 @@ nav{
     margin-left: 50px;
 }
 .foodly-icon{ margin-right:30%;
-        letter-spacing: 7px;   
+        letter-spacing: 7px; 
+        list-style-type: none; 
+        margin-left: 60px; 
+}
+.nav-link{
+    transition: 0.2s ease;
+}
+.nav-link:hover{
+    color:#1C3144;
 }
 .login-button{
     background-color: #FFBA08;
@@ -53,7 +61,24 @@ li a{
     color: #FFBA08;
 }
 .socials{
-    margin-left: 70px;
+    margin-left: 50px;
+}
+.hamburger{
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: none;
+
+}
+.bar{
+    display:block;
+    width: 25px;
+    height: 5px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(218, 58, 58);
+    -webkit-transition: all 0.3s ease-in-out;
 }
 .our-story{
     width:100%;
@@ -258,50 +283,71 @@ th{
         padding: 0px;
         margin-right: 0px;
     }
+    .hamburger{
+        display: block;
+        margin-top: 20px;
+        margin-left: 250px;
+
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(12px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: absolute;
+        left: -110%;
+        top:60px;
+        background-color: white;
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        text-align: center;
+        margin: 2px;
+        z-index: 1;
+        height: 90vh;
     
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        padding-right: 30%;
+        padding-top: 36px;
+       
+    }
     nav{
         height: 40px;
     }
+    
     .vector{
-        margin-left: 5px;
-        width: 20px;
+        margin-left: 15px;
+        width: 30px;
     }
-    .foodly-icon{ margin-right:8px;
-            letter-spacing: 3px;
+    .foodly-icon{ margin-right:12px;
+            letter-spacing: 7px;
             font-size: 12px;
-            margin-left: 2px;   
+            margin-left: 2px; 
+            padding-top: 3px;
+            margin-top: -5px;  
     }
     .login-button{
-        background-color: #FFBA08;
-        border-radius: 5px;
-        height:20px;
-        margin-top: 30px;
-    }
-    .login-link{
-            color: white;
-    }
-    ul{
-        list-style-type: none;
-        }
-    li {
-        float: left;
-        padding-top: 5px;
-        font-size: 12px;
-    }
-    .nav-item{
-        padding-left: 12px;
-          
-    }
-    li a{
-        text-decoration: none;
+       margin-left: 10px;
+        margin-top: 0px;
+}
+.socials{
+    margin-left: 2px}
+    .nav-link{
         color:#1C3144;    
     }
     .active{
         color: #FFBA08;
-    }
-    .socials{
-        margin-left: 2px;
-        width: 5px;
     }
         
     .our-story{
@@ -401,7 +447,7 @@ th{
         font-size:12px;
         }
 
-}
+}/*
 
 @media only screen and (max-width:400px){
     .home-page{
@@ -409,51 +455,69 @@ th{
         padding: 0px;
         margin-right: 0px;
     }
-nav{
-    height: 40px;
-}
-.vector{
-    margin-left: 5px;
-    width: 20px;
-}
-.foodly-icon{ margin-right:8px;
-        letter-spacing: 3px;
-        font-size: 12px;
-        margin-left: 2px;   
-}
-.login-button{
-    background-color: #FFBA08;
-    border-radius: 5px;
-    height:20px;
-    padding-top: 2px;
-}
-.login-link{
-        color: white;
-}
-ul{
-    list-style-type: none;
+    .hamburger{
+        display: block;
+        margin-top: 20px;
+        margin-left: 280px;
+
     }
-li {
-    float: left;
-    padding-top: 5px;
-    font-size: 12px;
-}
-.nav-item{
-    padding-left: 12px;
-      
-}
-li a{
-    text-decoration: none;
-    color:#1C3144;    
-}
-.active{
-    color: #FFBA08;
-}
-.socials{
-    margin-left: 2px;
-    width: 5px;
-}
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(12px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: absolute;
+        left: -110%;
+        top:60px;
+        background-color: white;
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        text-align: center;
+        margin: 2px;
+        z-index: 1;
+        height: 90vh;
     
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        padding-right: 30%;
+        padding-top: 36px;
+       
+    }
+    nav{
+        height: 40px;
+    }
+    
+    .vector{
+        margin-left: 15px;
+        width: 30px;
+    }
+    .foodly-icon{ margin-right:12px;
+            letter-spacing: 7px;
+            font-size: 18px;
+            margin-left: 5px; 
+            padding-top: 1px;
+            margin-top: -3px;  
+    }
+.login-button{margin: auto;}
+.socials{
+    margin-left: 12px}
+    .nav-link{
+        color:#1C3144;    
+    }
+    .active{
+        color: #FFBA08;
+    }
 .our-story{
     height:30%;
     background-size: 700px;}
@@ -556,7 +620,7 @@ li a{
         font-size:12px;
         }
     }
-
+/*
 
 @media only screen and (max-width:576px){
     .home-page{
@@ -565,50 +629,69 @@ li a{
         margin-right: 0px;
     }
     
+    .hamburger{
+        display: block;
+        margin-top: 20px;
+        margin-left: 290px;
+
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(12px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: absolute;
+        left: -110%;
+        top:60px;
+        background-color: white;
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        text-align: center;
+        margin: 2px;
+        z-index: 1;
+        height: 90vh;
+    
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        padding-right: 30%;
+        padding-top: 36px;
+       
+    }
     nav{
         height: 40px;
     }
+    
     .vector{
-        margin-left: 5px;
-        width: 20px;
+        margin-left: 35px;
+        width: 30px;
     }
     .foodly-icon{ margin-right:8px;
-            letter-spacing: 3px;
-            font-size: 12px;
-            margin-left: 2px;   
+            letter-spacing: 7px;
+            font-size: 18px;
+            margin-left: 12px; 
+            padding-top: 1px;  
     }
-    .login-button{
-        background-color: #FFBA08;
-        border-radius: 5px;
-        height:20px;
-        margin-top: 30px;
-    }
-    .login-link{
-            color: white;
-    }
-    ul{
-        list-style-type: none;
-        }
-    li {
-        float: left;
-        padding-top: 5px;
-        font-size: 12px;
-    }
-    .nav-item{
-        padding-left: 12px;
-          
-    }
-    li a{
-        text-decoration: none;
+.login-button{margin: auto;}
+.socials{
+    margin-left: 12px}
+    .nav-link{
         color:#1C3144;    
     }
     .active{
         color: #FFBA08;
     }
-    .socials{
-        margin-left: 2px;
-        width: 5px;
-    }
+
         
     .our-story{
         height:25%;
@@ -712,4 +795,187 @@ li a{
         bottom: -30px;
         font-size:12px;
         }
+        
+@media only screen and (min-width:768px){
+    .home-page{
+        margin-left: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+    
+    .hamburger{
+        display: block;
+        margin-top: 20px;
+        margin-left: 690px;
+
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(12px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: absolute;
+        left: -110%;
+        top:60px;
+        background-color: white;
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        text-align: center;
+        margin: 2px;
+        z-index: 1;
+        height: 90vh;
+    
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        padding-right: 10%;
+        padding-top: 36px;
+       
+    }
+    nav{
+        height: 40px;
+    }
+    
+    .vector{
+        margin-left: 55px;
+        width: 30px;
+    }
+    .foodly-icon{ margin-right:8px;
+            letter-spacing: 7px;
+            font-size: 18px;
+            margin-left: 12px; 
+            padding-top: 1px;  
+    }
+.login-button{margin: auto;}
+.socials{
+    margin-left: 12px}
+    .nav-link{
+        color:#1C3144;    
+    }
+    .active{
+        color: #FFBA08;
+    }
+
+        
+    .our-story{
+        height:25%;
+        background-size: 100%;}
+        .our-storyheader{
+            top: 30px;
+            width:19%;
+                 }
+        .our-storyheader1{
+            top: 70px;
+        }
+        
+    .img1{
+        padding-bottom: 45px;
+        width:100%;
+        padding-top: 30px;
+        position: absolute;
+        bottom: -200px;
+        z-index: 1;
+
+    }
+    .h2{
+        margin-top: 180px;
+        font-size: 25px;
+    }
+    .first-paragraph{
+        font-size: 18px;
+    }
+    .gifheader{
+        position: absolute;
+        top: 45px;
+        font-size: 25px;
+        text-align: center;
+         left:205px;
+                 }
+    .foodlyheader{
+        width:29%;
+}
+    .container-fluid{
+        background-color: white;
+        margin-top: 40px;
+        padding:10px;
+        transition: 1s;
+        position: relative;
+    }
+        .display-7{
+            text-align: justify;
+            padding-bottom: 70px;
+            padding-top: 5px;
+    }
+    .my-4{
+        padding-bottom: 0;
+    }
+}
+
+    .col{
+        height:390px;
+        margin-bottom: 35px;
+}
+    footer{
+        height: 800px;
+        margin-top: 100px;
+        padding-top: 60px; 
+        position: relative;
+        background-size: 190px;
+        background-position: bottom;
+        }
+    .footer-h4{
+         margin-left: 30px;
+        }
+    input{
+        width:475px;
+        padding: 25px;
+        margin-left: 29px;
+        margin-top: 33px;
+        }
+    button{
+        margin-top: 20px;
+        margin-left: 1px;
+        height:50px;
+        }
+    table{
+        margin:25px;
+         }
+    .tableheader{
+        margin-bottom: 30px;   
+        }
+    .foodly{
+        letter-spacing: 5px;} 
+    td{
+        padding-left: 75px;
+        opacity: 0.5;
+        font-size: 20px;
+        padding-bottom: 20px;
+        }
+    th{
+        padding-left: 75px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        }
+    .fa-utensils{
+        margin-right: 10px;
+        }
+    .display-9{
+        margin-left: 279px;
+        bottom: -30px;
+        font-size:16px;
+        }
+        
+
+
+        
 
