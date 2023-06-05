@@ -740,7 +740,6 @@ th{
     .my-4{
         padding-bottom: 0;
     }
-}
 
     .col{
         height:280px;
@@ -794,8 +793,9 @@ th{
         bottom: -30px;
         font-size:12px;
         }
-        
-@media only screen and (min-width:760px) and (max-width:1300px){
+    }
+
+@media only screen and (min-width:760px) and (max-width:1100px){
     .home-page{
         margin-left: 0px;
         padding: 0px;
@@ -922,7 +922,6 @@ th{
     .my-4{
         padding-bottom: 0;
     }
-}
 
     .col{
         height:390px;
@@ -979,285 +978,31 @@ th{
         margin-left: 280px;
         bottom: -30px;
         font-size:16px;
-        }
-        @media only screen and (min-width:1100px) and(max-width:1300px) {
-        *{
-            margin:0;
-            padding: 0;
-            box-sizing: border-box;
-            align-self: auto;
-        }
-        .home-page{
-           background-color: white;
-            margin: 0px;
-            padding: 0px;
-            width: 100%;
-            height: 100vh;
-        }
-        
-        nav{
-            width: 100%;
-            height: 10%;
-            background-color: white;
-            margin: 0;
-        }
-        .vector{
-            margin-left: 10px;
-        }
-        .foodly-icon{ margin-right:5%;
-                letter-spacing: 7px; 
-                list-style-type: none; 
-                margin-left: 10px; 
-        }
-        .nav-link{
-            transition: 0.2s ease;
-        }
-        .nav-link:hover{
-            color:#1C3144;
-        }
-        .login-button{
-            background-color: #FFBA08;
-            border-radius: 5px;
-            height:30px;
-            margin-top: -500px;
-        }
-        .login-link{
-                color: white;
-        }
-        .about{
-            color: rgba(28, 49, 68, 0.75);;
-        }
-        ul{
-            list-style-type: none;
-            }
-        li {
-            float: left;
-            padding-top: 20px;
-        }
-        .nav-item{
-            padding-left: 60px;    
-        }
-        li a{
-            text-decoration: none;
-            color:#1C3144;    
-        }
-        .active{
-            color: #FFBA08;
-        }
-        .socials{
-            margin-left: 50px;
-        }
-        .hamburger{
-            cursor: pointer;
-            display: inline-block;
-            margin-top: 20px;
-            margin-left: 30px;
-            display: none;
-        
-        }
-        .bar{
-            display:block;
-            width: 25px;
-            height: 5px;
-            margin: 5px auto;
-            transition: all 0.3s ease-in-out;
-            background-color: rgb(218, 58, 58);
-            -webkit-transition: all 0.3s ease-in-out;
-        }
-        .our-story{
-            width:100%;
-            height:70%;
-            position: relative;
-            background: url("Rectangle\ 36.png");
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-size: cover;}
-        .our-storyheader{position: absolute;
-            top: 50px;
-            width:30%;
-            border: 3px solid white;
-            margin-left: 67px;
-                 }
-           
-        .our-storyheader1{
-            color: white;
-            position: absolute;
-            top: 90px;
-            margin-left: 57px;
-            line-height: 5%;
-        
-            
-        }
-        h6{color: #851D41;
-        
-            
-        }
-        
-        .container-fluid{
-            background-color: white;
-            margin-top: 90px;
-            padding:10px;
-            transition: 1s;
-        }
-            
-        .img1{float:left;
-            margin-right: 37px;
-            padding-right: 30px;
-            margin-top: 0;
-        
-            }
-        
-        .foodlyheader{
-            width:19%;
-            margin-bottom: 3px;
-            margin-left: 5px;
-            height: 0px;
-            border: 2px solid;
-            display: inline-block;
-            color: #851D41;
-          
-        }
-        .first-paragraph{
-            text-align: center;
-            padding: 5px;
-            margin-bottom: 55px;
-            color: #851D41;
-                } 
-        .display-7{
-            font-size: 18px;
-        }  
-        .h2{
-            text-align: center;
-            padding: 5px;
-            margin-bottom: 2px;
-        }
-        .col{
-            margin-right: 40px;
-            margin-top: 25px;
-            margin-left: 35px;
-            border-radius: 25px;
-            height:235px;
-            margin-bottom: 25px;
-            text-align: center;
-            border: 1px solid black;
-        }
-        .fa-chess-king{
-            height: 40px;
-            margin-top: 20px;
-        
-        }
-        .fa-truck-field{
-            height: 40px;
-            margin-top: 20px;
-        }
-        .fa-bowl-food{
-            height: 40px;
-            margin-top: 20px;
-        }
-        .h5{
-            text-align: center;
-        }
-        .gif{
-            width:100%;
-            height:115px;
-            position: relative;
-            background-image: url("Rectangle\ 41.png");
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-size: cover; 
-            margin-top: 75px;
-            margin-bottom: 69px;
-        
-              
-        }  
-        .gifheader{
-            position: absolute;
-            top: 30px;
-            font-size: 40px;
-            left:380px;
-            color: #FFBA08;
-            
-        
-                 }
-        .overlay{
-            position: absolute;
-            left:0;
-            right:0;
-             }
-        footer{
-            
-            background-color:  rgb(219, 219, 226, .1);
-            width: 100%;
-            height: 450px;
-            margin-top: 70px;
-            border: none;
-            background-image: url("Group\ 24.png");
-            background-repeat: no-repeat;
-            background-size: 203px;
-            background-position: right bottom;
-            padding:60px; 
-            position: relative;
-        }
-        .footer-h4{
-            margin-left: 65px;
-        }
-        input{
-            border: 1px solid #851D41;
-            width:450px;
-            height: 30px;
-            padding: 15px;
-            margin-left: 280px;
-            background-color: white;
-            margin-top: 3px;
-        }
-        button{
-            border: none;
-            width:100px;
-            height: 33px;;
-            background-color: #851D41;
-            color: white;
-        }.tableheader{
-            width:69%;
-            margin-top: 40px;
-            height: 3px;
-            background-color:  #1C3144;;
-            margin-left: 65px;
-        }
-        table{
-            margin:45px;
-            position: relative;
-         }
-         .foodly{
-            letter-spacing: 7px; 
-            padding-left:9px;
-         }
-         .first-tabledata{
-            padding-left:9px;
-            }
-        td{
-             padding-left: 140px;
-             padding-bottom: 10px;
-             opacity: 0.5;
-        }
-        th{
-            padding-left: 140px;
-            padding-bottom: 10px;
-        }
-        .layer2{
-            
-            margin-right: 3px;
-        
-        }
-        .display-9{
-            margin-left: 650px;
-            position: absolute;
-            bottom: 0;
-            margin-bottom: 10px;
-            opacity: 0.5;
         }}
-        
-        
+@media only screen and (min-width:1200px) and (max-width:1400px){
+   
+.vector{
+    margin-left: 20px;
+}
 
+.nav-item{
+    padding-left: 38px;    
+}
 
-        
-
+.socials{
+    margin-left: 2px;
+}
+.our-storyheader{
+    width:7%;
+}
+ 
+.display-7{
+    font-size: 16px;
+}
+.gifheader{
+    left:300px;
+}
+input{
+    margin-left: 40px;
+}  
+}
