@@ -1,0 +1,957 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    align-self: auto;
+}
+.home-page{
+   background-color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+   
+    
+}
+.home-div{
+    
+    width: 100%;
+    height: 800px;
+    background-color: transparent;
+    position: relative;
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;   
+}
+
+.vector{
+    margin-left: 50px;
+}
+.foodly-icon{ margin-right:30%;
+        letter-spacing: 7px; 
+        list-style-type: none; 
+        margin-left: 60px; 
+}
+.nav-link{
+    transition: 0.2s ease;
+}
+.nav-link:hover{
+    color:#1C3144;
+}
+.login-button{
+    background-color: #FFBA08;
+    border-radius: 5px;
+    height:30px;
+    border: none;
+    padding: 4px 25px;
+
+}
+.login-link{
+        color: white;
+        
+}
+.about{
+    color: rgba(28, 49, 68, 0.75);
+}
+ul{
+    list-style-type: none;
+    }
+li {
+    float: left;
+    padding-top: 20px;
+}
+.nav-item{
+    padding-left: 60px;    
+}
+li a{
+    text-decoration: none;
+    color:#1C3144;    
+}
+.active{
+    color: #FFBA08;
+    font-weight: bold;
+}
+.socials{
+    margin-left: 20px;
+}
+
+.hamburger{
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 2.5px;
+    margin-left: 15px;
+    display: none;
+}
+.bar{
+    display:block;
+    width: 25px;
+    height: 5px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #FFBA08;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.left-div{
+    width:390px;
+    height: 700px;
+    background-color: #851D41;
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+}
+.food-img{
+    position: absolute;
+    top: 210px;
+    right: 270px;
+}
+.sapa-text{
+    position: absolute;
+    top: 160px;
+    left: 90px;
+}
+.sapa-paragraph{
+    font-size: 38px;
+    color: rgb(24, 23, 23);
+    font-weight: lighter;
+    
+}
+
+.order-button{
+    background-color: #FFBA08;
+    border-radius: 5px;
+    height:35px;
+    border: none;
+    padding: 4px 25px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 17px 0;
+
+}
+.sapa-h3{
+    font-size: 50px;
+   
+}
+.about-us{
+    width: 100%;
+    height: 800px;
+    background-color: transparent;
+    border: none;
+    padding-left: 90px;
+}
+.about-header{
+    color: #FFBA08;
+    border: 2px solid;
+    width: 70%;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.foodly-about1{
+    margin-top: 40px;
+    position: relative;
+
+}
+.foodly-about1-h4-p{
+    position: absolute;
+    top: 130px;
+    left: 350px;
+
+}
+.header{
+    font-size: 30px;
+}
+.group21{
+    width:280px;
+}
+
+.foodly-about2{
+    margin-top: 0px;
+    position: relative;
+
+}
+.masa{
+    position: absolute;
+    width:300px;
+    right: 90px;
+}
+
+.foodly-about2-h4-p{
+    position: absolute;
+    top: 130px;
+    left: 0px;
+
+}
+
+.menu{
+    width: 100%;
+    height: 1200px;
+    background-color: transparent;
+    border: none;
+    padding-top: 15px;
+}
+.menu-h2{
+    margin-bottom: 50px;
+    padding-left: 90px;
+}
+
+.menu-header{
+    color: #FFBA08;
+    border: 2px solid;
+    width: 70%;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.food-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    align-content: center;
+    
+}
+.food-items{
+    width: 340px;   
+}
+.review{
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+    
+}
+
+.review-header{
+    color: #FFBA08;
+    border: 2px solid;
+    width: 70%;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.review-div{
+    width: 615px ;
+    height: 370px ;
+    background-color: #851D41;
+    margin-top: 20px;
+    color: white;
+    padding-top: 45px;
+    padding-left: 60px;
+    padding-right: 29px;
+    position: relative;
+}
+.review-h2{
+    margin-bottom: 50px;
+    padding-left: 90px;
+
+}
+.fa-star{
+    color: #FFBA08;
+    padding: 16px;
+}
+.john-image{
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.john-name{
+    margin-left: 23px;
+    position: absolute;
+    top: 230px;
+    color: #1C3144;
+}
+.arrow-div{
+    display: flex;
+    position: absolute;
+    top: 280px;
+    gap: 320px;
+}
+.fa-2xl{
+    padding-right: 9px;
+    padding-left: 9px;
+}
+.next-tag{
+    color: #FFBA08;
+  
+}
+.circle-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+    gap: 10px;
+
+}
+.one{
+    color: #FFBA08;
+}
+.two, .three, .four {
+    color: rgba(250, 250, 250, 0.5);
+}
+
+footer{
+    
+    background-color:  rgb(219, 219, 226, .1);
+    width: 100%;
+    height: 450px;
+    margin-top: 70px;
+    border: none;
+    background-image: url("/Tech-Gurus/media/Group 24(1).png");
+    background-repeat: no-repeat;
+    background-size: 203px;
+    background-position: right bottom;
+    padding:60px; 
+    position: relative;
+}
+.footer-h4{
+    margin-left: 65px;
+}
+input{
+    border: 1px solid #851D41;
+    width:450px;
+    height: 30px;
+    padding: 15px;
+    margin-left: 280px;
+    background-color: white;
+    margin-top: 3px;
+}
+.subscribe-button{
+    border: none;
+    width:100px;
+    height: 33px;;
+    background-color: #851D41;
+    color: white;
+}
+.tableheader{
+    width:69%;
+    margin-top: 40px;
+    height: 3px;
+    background-color:  #1C3144;
+    margin-left: 65px;
+}
+table{
+    margin:45px;
+    position: relative;
+ }
+ .foodly{
+    letter-spacing: 7px; 
+    padding-left:9px;
+ }
+ .first-tabledata{
+    padding-left:9px;
+    }
+td{
+     padding-left: 140px;
+     padding-bottom: 10px;
+     opacity: 0.5;
+}
+th{
+    padding-left: 140px;
+    padding-bottom: 10px;
+}
+.layer2{
+    
+    margin-right: 3px;
+
+}
+.display-9{
+    margin-left: 650px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 16px;
+    opacity: 0.5;
+}
+
+/* responsiveness*/
+
+@media only screen and (min-width:300px) and (max-width:350px){
+    .home-page{
+        margin-left: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+    .hamburger{
+        display: block;
+        margin-top: 30px;
+        margin-left: 250px;
+
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(12px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .nav-menu{
+        position: absolute;
+        left: -110%;
+        top: 70px;
+        background-color: white;
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        text-align: center;
+        margin: 2px;
+        height: 90vh;
+    
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        padding-right: 30%;
+        padding-top: 36px;
+       
+    }
+    .vector{
+        margin-left: 20px;
+    }
+    .foodly-icon{ margin-right:20%;
+            margin-top: 10px;
+            margin-left: 0px; 
+    }
+    .nav-link:not(.active){
+        color: #1C3144;
+    }
+    
+    .login-button{
+        margin-left: 10px;
+         margin-top: 0px;
+ }
+ 
+.socials{
+    margin-left: 2px}
+    
+.left-div{
+    width: 90px;
+    height: 550px;
+    background-color: #851D41;
+}
+
+.food-img{
+    top: 115px;
+    right: 80px;}
+.swallow{
+    width: 160px;
+}
+.sapa-text{
+    top: 298px;
+    left: 40px;
+}
+.sapa-paragraph{
+    font-size: 16px;
+    font-weight: light;
+    
+}
+.order-button{
+    height:25px;
+    font-size: 8px;
+    margin: 10px 0;
+}
+.sapa-h3{
+    font-size: 20px;  
+}
+.about-us{
+    width: 100%;
+    height: 1000px;
+    background-color: transparent;
+    padding-left: 40px;
+    position: absolute;
+    top: 620px;
+}
+.about-header{
+    width: 100px;
+    margin-bottom: 3px;
+}
+.foodly-about1{
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    align-content: center;
+}
+.foodly-about1-h4-p{
+    position: absolute;
+    top: 370px;
+    left: 0px;
+}
+.header{
+    font-size: 18px;
+}
+.group21{
+    width:239px;
+}
+
+.foodly-about2{
+    margin-top: 30px;
+    position: relative;
+}
+
+.masa{
+    position: absolute;
+    width: 249px;
+    top: 160px;
+    left: 0px;
+   
+}
+
+.foodly-about2-h4-p{
+    position: absolute;
+    top: 440px;
+    left: 0px;
+
+}
+.menu{
+    width: 100%;
+    height: 2290px;
+    background-color: transparent;
+    padding-left: 40px;
+    position: absolute;
+    top: 1620px;
+    padding-top: 30px;
+
+    
+}
+
+.menu-h2{
+    margin-bottom: 50px;
+    padding-left: 0px;
+}
+
+.menu-header{
+    width: 130px;
+    margin-bottom: 3px;
+}
+.food-menu{
+    display: flex;
+    gap: 35px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+.food-items{
+    width: 239px;
+    left: 0;
+    right: 0;
+   
+}
+.review{
+    width: 100%;
+    height: 1250px;
+    background-color: transparent;
+    position: absolute;
+    top: 3999px;    
+}
+.review-header{
+    width: 100px;
+    margin-bottom: 3px;
+}
+.review-div{
+    height: 470px ;
+    padding-left: 40px;
+    padding-right: 25px;
+    position: relative;
+}
+.review-h2{
+    margin-bottom: 10px;
+    padding-left: 40px;
+    bottom: 0px;
+    top: 3940px;
+    position: absolute;
+}
+.fa-star{
+    padding: 12px;
+}
+.john-image{
+    margin-top: 30px;
+}
+.john-name{
+    position: absolute;
+    top: 298px;
+}
+.arrow-div{
+    top: 360px;
+    gap: 80px;
+}
+.fa-2xl{
+    padding-right: 9px;
+    padding-left: 7px;
+    width: 20px;
+}
+.circle-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 98px;
+    gap: 10px;
+
+}
+footer{
+    height: 800px;
+    margin-top: 100px;
+    padding-top: 60px; 
+    position: relative;
+    background-size: 170px;
+    background-position: bottom;
+    top: 3590px;
+    padding-left: 40px;
+    }
+.footer-h4{
+     margin-left: 0px;
+     font-size: 17px;
+    }
+input{
+    width:255px;
+    padding: 20px;
+    margin-left: 0;
+    margin-top: 33px;
+    }
+button{
+    margin-top: 20px;
+    margin-left: 85px;
+    }
+table{
+    margin:0px;
+    
+     }
+.tableheader{
+    margin-bottom: 30px;   
+    }
+.foodly{
+    letter-spacing: 3px;} 
+td{
+    padding-left: 8px;
+    opacity: 0.5;
+    font-size: 11px;
+    padding-bottom: 18px;
+    }
+    .layer2{
+        width:22px;
+    }
+th{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-size: 10px;
+    }
+.display-9{
+    margin-left: 68px;
+    bottom: -30px;
+    font-size:12px;
+    }
+}
+
+
+@media only screen and (min-width:360px) and (max-width:400px){
+    .home-page{
+        margin-left: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+    .hamburger{
+        display: block;
+        margin-top: 35px;
+        margin-left: 269px;
+
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(12px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .nav-menu{
+        position: absolute;
+        left: -110%;
+        top: 70px;
+        background-color: white;
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        text-align: center;
+        margin: 2px;
+        height: 90vh;
+    
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        padding-right: 80px;
+        padding-top: 36px;
+       
+    }
+    .vector{
+        margin-left: 25px;
+    }
+    .foodly-icon{ margin-right:21%;
+            margin-top: 10px;
+            margin-left: 0px; 
+    }
+    .nav-link:not(.active){
+        color: #1C3144;
+    }
+    
+    .login-button{
+        margin-left: 10px;
+         margin-top: 0px;
+ }
+ 
+.socials{
+    margin-left: 2px}
+    
+.left-div{
+    width: 90px;
+    height: 550px;
+    background-color: #851D41;
+}
+
+.food-img{
+    top: 115px;
+    right: 80px;}
+.swallow{
+    width: 170px;
+}
+.sapa-text{
+    top: 298px;
+    left: 40px;
+}
+.sapa-paragraph{
+    font-size: 16px;
+    font-weight: light;
+    
+}
+.order-button{
+    height:25px;
+    font-size: 10px;
+    margin: 12px 0;
+}
+.sapa-h3{
+    font-size: 20px;  
+}
+.about-us{
+    width: 100%;
+    height: 1000px;
+    background-color: transparent;
+    padding-left: 40px;
+    position: absolute;
+    top: 620px;
+    
+}
+.about-us-h2{
+    margin-bottom: 30px;
+}
+.about-header{
+    width: 100px;
+    margin-bottom: 3px;
+}
+.foodly-about1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;}
+    
+.foodly-about1-h4-p{
+    position: absolute;
+    top: 370px;
+    left: 0px;
+    right: 0;
+}
+.header{
+    font-size: 18px;
+}
+.group21{
+    width:239px;
+    margin-left: -30px;
+    
+}
+
+.foodly-about2{
+    margin-top: 30px;
+    position: relative;
+}
+
+.masa{
+    position: absolute;
+    width: 249px;
+    top: 150px;
+    left: 20px;
+   
+}
+
+.foodly-about2-h4-p{
+    position: absolute;
+    top: 440px;
+    left: 0px;
+
+}
+.menu{
+    width: 100%;
+    height: 2290px;
+    background-color: transparent;
+    padding-left: 40px;
+    position: absolute;
+    top: 1620px;
+    padding-top: 30px;
+
+    
+}
+
+.menu-h2{
+    margin-bottom: 50px;
+    padding-left: 0px;
+}
+
+.menu-header{
+    width: 130px;
+    margin-bottom: 3px;
+}
+.food-menu{
+    display: flex;
+    gap: 35px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 23px;
+}
+.food-items{
+    width: 237px;
+    left: 0;
+    right: 0;
+   
+}
+.review{
+    width: 100%;
+    height: 1250px;
+    background-color: transparent;
+    position: absolute;
+    top: 4000px;    
+}
+.review-header{
+    width: 100px;
+    margin-bottom: 3px;
+}
+.review-div{
+    height: 456px ;
+    padding-left: 40px;
+    padding-right: 25px;
+    position: relative;
+}
+.review-h2{
+    margin-bottom: 10px;
+    padding-left: 40px;
+    bottom: 0px;
+    top: 3940px;
+    position: absolute;
+}
+.fa-star{
+    padding: 12px;
+}
+.john-image{
+    margin-top: 30px;
+}
+.john-name{
+    position: absolute;
+    top: 270px;
+}
+.arrow-div{
+    top: 345px;
+    gap: 110px;
+}
+.fa-2xl{
+    padding-right: 9px;
+    padding-left: 9px;
+    width: 20px;
+}
+.circle-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 90px;
+    gap: 10px;
+
+}
+footer{
+    height: 800px;
+    margin-top: 100px;
+    padding-top: 60px; 
+    position: relative;
+    background-size: 170px;
+    background-position: bottom;
+    top: 3590px;
+    padding-left: 40px;
+    }
+.footer-h4{
+     margin-left: 10px;
+     font-size: 17px;
+    }
+input{
+    width:255px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 33px;
+    }
+button{
+    margin-top: 20px;
+    margin-left: 85px;
+    }
+table{
+    margin:0px;
+    
+     }
+.tableheader{
+    margin-bottom: 30px;   
+    }
+.foodly{
+    letter-spacing: 3px;} 
+td{
+    padding-left: 10px;
+    opacity: 0.5;
+    font-size: 13px;
+    padding-bottom: 18px;
+    }
+    .layer2{
+        width:25px;
+    }
+th{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    }
+.display-9{
+    margin-left: 68px;
+    bottom: -30px;
+    font-size:12px;
+    }
+}
+
