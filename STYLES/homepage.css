@@ -459,6 +459,9 @@ th{
     .nav-link:not(.active){
         color: #1C3144;
     }
+    .nav-link{
+        color:#1C3144;    
+    }
     
     .login-button{
         margin-left: 10px;
@@ -470,7 +473,8 @@ th{
 }
 .socials{
     color: #851D41;
-    margin-left: 2px;}
+    margin-left: 2px;
+    background-color:#E5E5E5;}
     
 .left-div{
     width: 90px;
@@ -747,6 +751,9 @@ th{
     .nav-link:not(.active){
         color: #1C3144;
     }
+    .nav-link{
+        color:#1C3144;    
+    }
     
     .login-button{
         margin-left: 10px;
@@ -759,7 +766,8 @@ th{
 }
 .socials{
     color: #851D41;
-    margin-left: 12px;}
+    margin-left: 12px;
+    background-color:#E5E5E5;}
     
 .left-div{
     width: 90px;
