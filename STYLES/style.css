@@ -60,9 +60,36 @@ li a{
 .active{
     color: #FFBA08;
 }
-.socials{
-    margin-left: 30px;
+.fa-facebook-f{
+   width:8px;
+   padding: 0 6px;
+   color: #851D41;
 }
+.fa-instagram{
+    width: 10px;
+   padding: 0 6px;
+   color: #851D41;
+}
+.fa-whatsapp{
+    width:10px;
+    padding: 0 6px;
+    color: #851D41;
+}
+
+.socials-div{
+    display: flex;
+    gap: 10px;   
+}
+.socials{
+    margin: 2px 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color:#E5E5E5;
+    
+    
+}
+
 .hamburger{
     cursor: pointer;
     display: inline-block;
@@ -206,7 +233,7 @@ h6{color: #851D41;
      }
 footer{
     
-    background-color:  rgb(219, 219, 226, .1);
+    background-color: #E5E5E5;
     width: 100%;
     height: 450px;
     margin-top: 70px;
@@ -233,7 +260,7 @@ input{
 button{
     border: none;
     width:100px;
-    height: 33px;;
+    height: 33px;
     background-color: #851D41;
     color: white;
 }
@@ -342,8 +369,12 @@ th{
        margin-left: 10px;
         margin-top: 0px;
 }
+.socials-div{
+    justify-content: center;
+}
 .socials{
-    margin-left: 2px}
+    color: #851D41;
+    margin-left: 2px;}
     .nav-link{
         color:#1C3144;    
     }
@@ -511,8 +542,14 @@ th{
             margin-top: -3px;  
     }
 .login-button{margin: auto;}
+
+.socials-div{
+    margin: 0;
+    justify-content: center;
+}
 .socials{
-    margin-left: 12px}
+    color: #851D41;
+    margin-left: 12px;}
     .nav-link{
         color:#1C3144;    
     }
@@ -683,8 +720,15 @@ th{
             padding-top: 1px;  
     }
 .login-button{margin: auto;}
+
+.socials-div{
+    margin: 0;
+    justify-content: center;
+}
+
 .socials{
-    margin-left: 12px}
+    color: #851D41;
+    margin-left: 12px;}
     .nav-link{
         color:#1C3144;    
     }
@@ -860,13 +904,36 @@ th{
 .login-button{margin: auto;
                 height: 55px;
                 width: 135px;}
+                
+.socials-div{
+    margin-left:  auto;
+    padding: auto;
+    gap: 18px;
+    justify-content: center;
+}
 .socials{
-    margin-left: 12px}
-    .nav-link{
-        color:#1C3144;    
+    color: #851D41;
+    margin: 2px 0;
+    width: 40px;
+    height: 40px; 
     }
-    .active{
-        color: #FFBA08;
+
+ .fa-facebook-f{
+    width:18px;
+     }
+.fa-instagram{
+    width: 20px;
+       
+     }
+.fa-whatsapp{
+    width:20px;
+         
+     }
+.nav-link{
+    color:#1C3144;    
+    }
+.active{
+    color: #FFBA08;
     }
 
         

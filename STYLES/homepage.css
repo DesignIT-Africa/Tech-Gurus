@@ -79,8 +79,33 @@ li a{
     color: #FFBA08;
     font-weight: bold;
 }
+.fa-facebook-f{
+   width:8px;
+   padding: 0 6px;
+}
+.fa-instagram{
+    width: 10px;
+   padding: 0 6px;
+}
+.fa-whatsapp{
+    width:10px;
+    padding: 0 6px;
+}
+
+.socials-div{
+    display: flex;
+    gap: 10px;
+   
+    
+}
 .socials{
-    margin-left: 20px;
+    margin: 2px 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: white;
+    
+    
 }
 
 .hamburger{
@@ -306,7 +331,7 @@ li a{
 
 footer{
     
-    background-color:  rgb(219, 219, 226, .1);
+    background-color: #E5E5E5;;
     width: 100%;
     height: 450px;
     margin-top: 70px;
@@ -324,7 +349,7 @@ footer{
 input{
     border: 1px solid #851D41;
     width:450px;
-    height: 30px;
+    height: 43px;
     padding: 15px;
     margin-left: 280px;
     background-color: white;
@@ -333,7 +358,7 @@ input{
 .subscribe-button{
     border: none;
     width:100px;
-    height: 33px;;
+    height: 43.5px;
     background-color: #851D41;
     color: white;
 }
@@ -440,8 +465,12 @@ th{
          margin-top: 0px;
  }
  
+.socials-div{
+    justify-content: center;
+}
 .socials{
-    margin-left: 2px}
+    color: #851D41;
+    margin-left: 2px;}
     
 .left-div{
     width: 90px;
@@ -724,8 +753,13 @@ th{
          margin-top: 0px;
  }
  
+.socials-div{
+    margin: 0;
+    justify-content: center;
+}
 .socials{
-    margin-left: 2px}
+    color: #851D41;
+    margin-left: 12px;}
     
 .left-div{
     width: 90px;
@@ -934,6 +968,7 @@ table{
     }
 .foodly{
     letter-spacing: 3px;} 
+
 td{
     padding-left: 10px;
     opacity: 0.5;
