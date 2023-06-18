@@ -459,9 +459,6 @@ th{
     .nav-link:not(.active){
         color: #1C3144;
     }
-    .nav-link{
-        color:#1C3144;    
-    }
     
     .login-button{
         margin-left: 10px;
@@ -751,9 +748,7 @@ th{
     .nav-link:not(.active){
         color: #1C3144;
     }
-    .nav-link{
-        color:#1C3144;    
-    }
+    
     
     .login-button{
         margin-left: 10px;
