@@ -33,15 +33,18 @@ nav{
 }
 
 .vector{
-    margin-left: 50px;
+    margin-left: 100px;
 }
 .foodly-icon{ margin-right:30%;
         letter-spacing: 7px; 
         list-style-type: none; 
-        margin-left: 60px; 
+        margin-left: 20px; 
 }
 .nav-link{
     transition: 0.2s ease;
+    color: rgba(28, 49, 68, 0.75);
+    
+    
 }
 .nav-link:hover{
     color:#1C3144;
@@ -51,15 +54,11 @@ nav{
     border-radius: 5px;
     height:30px;
     border: none;
-    padding: 4px 25px;
+    padding: 0px 28px;
 
 }
 .login-link{
-        color: white;
-        
-}
-.about{
-    color: rgba(28, 49, 68, 0.75);
+    color: white;        
 }
 ul{
     list-style-type: none;
@@ -82,14 +81,17 @@ li a{
 .fa-facebook-f{
    width:8px;
    padding: 0 6px;
+   color: #851D41;
 }
 .fa-instagram{
     width: 10px;
    padding: 0 6px;
+   color: #851D41;
 }
 .fa-whatsapp{
     width:10px;
     padding: 0 6px;
+    color: #851D41;
 }
 
 .socials-div{
@@ -104,6 +106,7 @@ li a{
     height: 22px;
     border-radius: 50%;
     background-color: white;
+    
     
     
 }
@@ -126,7 +129,7 @@ li a{
 }
 
 .left-div{
-    width:390px;
+    width: 365px;
     height: 700px;
     background-color: #851D41;
     position: absolute;
@@ -136,13 +139,16 @@ li a{
 }
 .food-img{
     position: absolute;
-    top: 210px;
-    right: 270px;
+    top: 200px;
+    right: 189px;
+}
+.swallow{
+    width: 300px;
 }
 .sapa-text{
     position: absolute;
     top: 160px;
-    left: 90px;
+    left: 120px;
 }
 .sapa-paragraph{
     font-size: 38px;
@@ -171,15 +177,18 @@ li a{
     height: 800px;
     background-color: transparent;
     border: none;
-    padding-left: 90px;
+    padding-left: 120px;
+    margin-bottom: 100px;
+    
 }
 .about-header{
     color: #FFBA08;
     border: 2px solid;
-    width: 70%;
+    width: 75%;
     margin-bottom: 3px;
-    margin-left: 5px;
+    margin-left: 15px;
     display: inline-block;
+    
 }
 .foodly-about1{
     margin-top: 40px;
@@ -201,13 +210,13 @@ li a{
 
 .foodly-about2{
     margin-top: 0px;
-    position: relative;
+    position: relative;    
 
 }
 .masa{
     position: absolute;
-    width:300px;
-    right: 90px;
+    width:350px;
+    right: 290px;
 }
 
 .foodly-about2-h4-p{
@@ -223,18 +232,20 @@ li a{
     background-color: transparent;
     border: none;
     padding-top: 15px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .menu-h2{
     margin-bottom: 50px;
-    padding-left: 90px;
+    padding-left: 120px;
 }
 
 .menu-header{
     color: #FFBA08;
     border: 2px solid;
-    width: 70%;
+    width: 60%;
     margin-bottom: 3px;
-    margin-left: 5px;
+    margin-left: 15px;
     display: inline-block;
 }
 .food-menu{
@@ -244,10 +255,106 @@ li a{
     gap: 80px;
     justify-content: center;
     align-content: center;
+   
     
 }
 .food-items{
-    width: 340px;   
+    border: 1px solid #FFBA08;
+    border-radius: 10px;
+    width: 245px;  
+    margin-top: 5px;
+    margin-left: 49px;
+    height: 280px;
+    object-fit: contain;
+}
+.food-container{
+    width: 340px;
+    height: 480px;
+    background-color: #851D41;
+    border-radius: 30px;
+}
+.shop-now-header{
+    padding: 4px 15px;
+}
+.food-name{
+    color: white;
+    text-align: center;
+    margin: 30px 0;   
+}
+.shop-now-button{
+    width: 145px;
+    height: 50px;
+    border: 1px  solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    margin: 5px;
+    margin-left: 105px;
+    margin-top: 30px;
+}
+.shop-now-link{
+    text-decoration: none;
+    color: white;
+}
+.food-name2{
+    color: #1C3144;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.food-container2{
+    width: 340px;
+    height: 480px;
+    background-color:#FFBA08;
+    border-radius: 30px;
+}
+
+.food-items2{
+    border: 1px solid #851D41;
+    border-radius: 10px;
+    width: 245px;  
+    margin-top: 5px;
+    margin-left: 49px;
+    height: 280px;
+    object-fit: contain;
+}
+.shop-now-link2{
+    text-decoration: none;
+    color: #1C3144;
+}
+
+.shop-now-button2{
+    width: 145px;
+    height: 50px;
+    border: 1px  solid #1C3144;
+    border-radius: 5px;
+    background-color: transparent;
+    margin: 5px;
+    margin-left: 105px;
+    margin-top: 30px;
+}
+
+.shop-now-header2{
+    padding: 4px 15px;
+}
+
+.food-items3{
+    border: 1px solid #FFBA08;
+    border-radius: 10px;
+    width: 245px;  
+    margin-top: 5px;
+    margin-left: 49px;
+    height: 280px;
+    object-fit: contain;
+}
+
+.food-items5{
+    border: 1px solid #FFBA08;
+    border-radius: 10px;
+    width: 245px;  
+    margin-top: 5px;
+    margin-left: 49px;
+    height: 280px;
+    object-fit: contain;
 }
 .review{
     width: 100%;
@@ -267,7 +374,7 @@ li a{
     border: 2px solid;
     width: 70%;
     margin-bottom: 3px;
-    margin-left: 5px;
+    margin-left: 15px;
     display: inline-block;
 }
 .review-div{
@@ -283,7 +390,7 @@ li a{
 }
 .review-h2{
     margin-bottom: 50px;
-    padding-left: 90px;
+    padding-left: 120px;
 
 }
 .fa-star{
@@ -437,7 +544,6 @@ th{
         text-align: center;
         margin: 2px;
         height: 90vh;
-    
     }
     .nav-menu.active{
         left:0;
@@ -452,12 +558,10 @@ th{
     .vector{
         margin-left: 20px;
     }
-    .foodly-icon{ margin-right:20%;
-            margin-top: 10px;
-            margin-left: 0px; 
-    }
-    .nav-link:not(.active){
-        color: #1C3144;
+    .foodly-icon{
+         margin-right:20%;
+        margin-top: 10px;
+        margin-left: 0px; 
     }
     
     .login-button{
@@ -753,9 +857,7 @@ th{
             margin-top: 10px;
             margin-left: 0px; 
     }
-    .nav-link:not(.active){
-        color: #1C3144;
-    }
+    
     
 .fa-facebook-f{
     color: #851D41;
@@ -766,9 +868,7 @@ th{
 .fa-whatsapp{
     color: #851D41;
 }
-    
-    
-    .login-button{
+.login-button{
         margin-left: 10px;
          margin-top: 0px;
  }
