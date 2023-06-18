@@ -468,8 +468,16 @@ th{
 .socials-div{
     justify-content: center;
 }
-.socials{
+.fa-facebook-f{
     color: #851D41;
+}
+.fa-instagram{
+    color: #851D41;
+}
+.fa-whatsapp{
+    color: #851D41;
+}
+.socials{
     margin-left: 2px;
     background-color:#E5E5E5;}
     
@@ -749,6 +757,16 @@ th{
         color: #1C3144;
     }
     
+.fa-facebook-f{
+    color: #851D41;
+}
+.fa-instagram{
+    color: #851D41;
+}
+.fa-whatsapp{
+    color: #851D41;
+}
+    
     
     .login-button{
         margin-left: 10px;
@@ -760,7 +778,6 @@ th{
     justify-content: center;
 }
 .socials{
-    color: #851D41;
     margin-left: 12px;
     background-color:#E5E5E5;}
     
