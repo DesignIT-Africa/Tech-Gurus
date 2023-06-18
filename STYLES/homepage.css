@@ -593,22 +593,22 @@ th{
 
 .food-img{
     top: 115px;
-    right: 80px;}
+    right: 40px;}
 .swallow{
     width: 160px;
 }
 .sapa-text{
     top: 298px;
-    left: 40px;
+    left: 30px;
 }
 .sapa-paragraph{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: light;
     
 }
 .order-button{
     height:25px;
-    font-size: 8px;
+    font-size: 10px;
     margin: 10px 0;
 }
 .sapa-h3{
@@ -665,14 +665,12 @@ th{
 }
 .menu{
     width: 100%;
-    height: 2290px;
+    height: 2690px;
     background-color: transparent;
-    padding-left: 40px;
+    padding-left: 30px;
     position: absolute;
     top: 1620px;
-    padding-top: 30px;
-
-    
+    padding-top: 0px;    
 }
 
 .menu-h2{
@@ -693,18 +691,31 @@ th{
     flex-wrap: nowrap;
     
 }
-.food-items{
-    width: 239px;
-    left: 0;
-    right: 0;
-   
+.food-items, .food-items2, .food-items3, .food-items5{
+    width: 175px;  
+    margin-top: 5px;
+    margin-left: 45px;
+    height: 180px;
+
+}
+.food-container, .food-container2{
+    width: 260px;
+    height: 380px;
+
+
+}
+.shop-now-button, .shop-now-button2{
+    margin: 5px;
+    margin-left: 60px;
+    margin-top: 30px;
 }
 .review{
     width: 100%;
     height: 1250px;
     background-color: transparent;
     position: absolute;
-    top: 3999px;    
+    top: 4300px;   
+    
 }
 .review-header{
     width: 100px;
@@ -720,7 +731,7 @@ th{
     margin-bottom: 10px;
     padding-left: 40px;
     bottom: 0px;
-    top: 3940px;
+    top: 4260px;
     position: absolute;
 }
 .fa-star{
@@ -757,7 +768,7 @@ footer{
     position: relative;
     background-size: 170px;
     background-position: bottom;
-    top: 3590px;
+    top: 3890px;
     padding-left: 40px;
     }
 .footer-h4{
@@ -882,8 +893,8 @@ th{
     background-color:#E5E5E5;}
     
 .left-div{
-    width: 90px;
-    height: 550px;
+    width: 106px;
+    height: 563px;
     background-color: #851D41;
 }
 
@@ -891,7 +902,7 @@ th{
     top: 115px;
     right: 80px;}
 .swallow{
-    width: 170px;
+    width: 160px;
 }
 .sapa-text{
     top: 298px;
@@ -914,7 +925,7 @@ th{
     width: 100%;
     height: 1000px;
     background-color: transparent;
-    padding-left: 40px;
+    padding-left: 35px;
     position: absolute;
     top: 620px;
     
@@ -958,7 +969,7 @@ th{
     position: absolute;
     width: 249px;
     top: 150px;
-    left: 20px;
+    left: 35px;
    
 }
 
@@ -972,7 +983,7 @@ th{
     width: 100%;
     height: 2290px;
     background-color: transparent;
-    padding-left: 40px;
+    padding-left: 35px;
     position: absolute;
     top: 1620px;
     padding-top: 30px;
@@ -996,20 +1007,31 @@ th{
     justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-left: 23px;
+    margin-left: 24px;
 }
-.food-items{
-    width: 237px;
-    left: 0;
-    right: 0;
-   
+.food-items, .food-items2, .food-items3, .food-items5{
+    width: 175px;  
+    margin-top: 5px;
+    margin-left: 45px;
+    height: 180px;
+
 }
-.review{
+.food-container, .food-container2{
+    width: 260px;
+    height: 380px;
+
+
+}
+.shop-now-button, .shop-now-button2{
+    margin: 5px;
+    margin-left: 60px;
+    margin-top: 30px;
+}.review{
     width: 100%;
     height: 1250px;
     background-color: transparent;
     position: absolute;
-    top: 4000px;    
+    top: 4350px;    
 }
 .review-header{
     width: 100px;
@@ -1025,7 +1047,7 @@ th{
     margin-bottom: 10px;
     padding-left: 40px;
     bottom: 0px;
-    top: 3940px;
+    top: 4300px;
     position: absolute;
 }
 .fa-star{
@@ -1062,7 +1084,7 @@ footer{
     position: relative;
     background-size: 170px;
     background-position: bottom;
-    top: 3590px;
+    top: 3890px;
     padding-left: 40px;
     }
 .footer-h4{
