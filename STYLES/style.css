@@ -252,7 +252,7 @@ footer{
 input{
     border: 1px solid #851D41;
     width:450px;
-    height: 30px;
+    height: 43px;
     padding: 15px;
     margin-left: 280px;
     background-color: white;
@@ -261,7 +261,7 @@ input{
 button{
     border: none;
     width:100px;
-    height: 33px;
+    height: 43.5px;
     background-color: #851D41;
     color: white;
 }
@@ -791,7 +791,7 @@ th{
         background-position: bottom;
         }
     .footer-h4{
-         margin-left: 30px;
+        margin-left: 30px;
         }
     input{
         width:275px;

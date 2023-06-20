@@ -233,7 +233,7 @@ li a{
     border: none;
     padding-top: 15px;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 .menu-h2{
     margin-bottom: 50px;
@@ -359,13 +359,10 @@ li a{
 .review{
     width: 100%;
     height: 400px;
-    background-color: transparent;
+    margin-bottom: 100px;
     border: none;
-    display: flex;
-    justify-content: center;
-    align-content: center; 
+   
 }
-
 .review-header{
     color: #FFBA08;
     border: 2px solid;
@@ -378,16 +375,12 @@ li a{
     width: 615px ;
     height: 370px ;
     background-color: #851D41;
-    margin-top: 20px;
+    margin-top: 0px;
     color: white;
-    padding-top: 45px;
+    padding-top: 40px;
     padding-left: 60px;
     padding-right: 29px;
     position: relative;
-    opacity: 1;
-}
-.review-div[data-active]{
-    opacity: 1;
 }
 .review-h2{
     margin-bottom: 50px;
@@ -408,35 +401,11 @@ li a{
     top: 230px;
     color: #1C3144;
 }
-.arrow-div{
-    display: flex;
-    position: absolute;
-    top: 280px;
-    gap: 320px;
-}
-.previous-tag-link{
-    padding-right: 0px;
-    padding-left: 0px;
-    color: #C4C4C4;
-}
-.next-tag, .next-tag-link{
-    color: #FFBA08;
-    padding-left: 5px;
-}
-.previous-tag-link:hover, 
-.next-tag-link:hover{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-.previous-tag{
-    color: rgba(196, 196, 196, 0.8);
-    
-}
 .circle-div{
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 60px;
+    margin-top: 58px;
     gap: 10px;
 
 }
@@ -447,19 +416,49 @@ li a{
     color: rgba(250, 250, 250, 0.5);
 }
 .carousel{
-    background-color: aqua;
-    height: 400px;
+    width: 39%;
+    margin: 0px auto;
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+}
+.carousel-slider{
+    height: 100%;
     display: flex;
-    /*width: 40%;*/
-    margin:auto;
+    width: 400%;
+    transition: all 0.3s;
+}
+.carousel-slider section{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls .arrow{
+    position: absolute;
+    top: 80%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+.left{
+    left: 59px;
+    color: rgba(196, 196, 196, 0.8);
+    
+}
+.left:hover, .right:hover{
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
+.right{
+    right: 40px;
+    color: #FFBA08;
+}
 footer{
     
     background-color: #E5E5E5;;
     width: 100%;
     height: 450px;
-    margin-top: 70px;
+    margin-top: 80px;
     border: none;
     background-image: url("../media/Group 24(1).png");
     background-repeat: no-repeat;
@@ -470,7 +469,7 @@ footer{
 }
 .footer-h4{
     margin-left: 65px;
-}
+} 
 input{
     border: 1px solid #851D41;
     width:450px;
@@ -727,31 +726,35 @@ th{
     margin-left: 60px;
     margin-top: 30px;
 }
-.review{
-    width: 100%;
-    height: 1250px;
-    background-color: transparent;
-    position: absolute;
-    top: 4300px;   
-    
-}
 .review-header{
     width: 100px;
     margin-bottom: 3px;
-}
-.review-div{
-    height: 470px ;
-    padding-left: 40px;
-    padding-right: 25px;
-    position: relative;
 }
 .review-h2{
     margin-bottom: 10px;
     padding-left: 40px;
     bottom: 0px;
-    top: 4260px;
+    top: 4280px;
     position: absolute;
 }
+
+.review-div{
+    width: 295px ;
+    height: 470px ;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 29px;
+    
+}
+.carousel{
+    width: 100%;
+    margin: auto;
+    height: 520px;
+    position: absolute;
+    top: 4330px;
+}
+
 .fa-star{
     padding: 12px;
 }
@@ -760,24 +763,11 @@ th{
 }
 .john-name{
     position: absolute;
-    top: 298px;
+    top: 330px;
 }
-.arrow-div{
-    top: 360px;
-    gap: 80px;
-}
-.fa-2xl{
-    padding-right: 9px;
-    padding-left: 7px;
-    width: 20px;
-}
-.circle-div{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 98px;
-    gap: 10px;
 
+.controls .arrow{
+    top: 81%;
 }
 footer{
     height: 800px;
@@ -786,7 +776,7 @@ footer{
     position: relative;
     background-size: 170px;
     background-position: bottom;
-    top: 3890px;
+    top: 3600px;
     padding-left: 40px;
     }
 .footer-h4{
@@ -815,7 +805,7 @@ table{
 td{
     padding-left: 8px;
     opacity: 0.5;
-    font-size: 11px;
+    font-size: 11.5px;
     padding-bottom: 18px;
     }
     .layer2{
@@ -828,7 +818,7 @@ th{
     }
 .display-9{
     margin-left: 68px;
-    bottom: -30px;
+    bottom: -35px;
     font-size:12px;
     }
 }
@@ -949,7 +939,7 @@ th{
     
 }
 .about-us-h2{
-    margin-bottom: 30px;
+    margin-bottom: 49px;
 }
 .about-header{
     width: 100px;
@@ -968,6 +958,10 @@ th{
     top: 370px;
     left: 0px;
     right: 0;
+}
+.foodly-about1-h4-p p{
+    font-size: 16px;
+    padding-top: 10px;
 }
 .header{
     font-size: 18px;
@@ -1001,9 +995,9 @@ th{
     width: 100%;
     height: 2290px;
     background-color: transparent;
-    padding-left: 35px;
+    padding-left: 0px;
     position: absolute;
-    top: 1620px;
+    top: 1570px;
     padding-top: 30px;
 
     
@@ -1011,7 +1005,7 @@ th{
 
 .menu-h2{
     margin-bottom: 50px;
-    padding-left: 0px;
+    padding-left: 35px;
 }
 
 .menu-header{
@@ -1021,11 +1015,11 @@ th{
 .food-menu{
     display: flex;
     gap: 35px;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-left: 24px;
+   
 }
 .food-items, .food-items2, .food-items3, .food-items5{
     width: 175px;  
@@ -1044,56 +1038,48 @@ th{
     margin: 5px;
     margin-left: 60px;
     margin-top: 30px;
-}.review{
-    width: 100%;
-    height: 1250px;
-    background-color: transparent;
-    position: absolute;
-    top: 4350px;    
-}
-.review-header{
-    width: 100px;
-    margin-bottom: 3px;
-}
-.review-div{
-    height: 456px ;
-    padding-left: 40px;
-    padding-right: 25px;
-    position: relative;
 }
 .review-h2{
     margin-bottom: 10px;
     padding-left: 40px;
     bottom: 0px;
-    top: 4300px;
+    top: 4270px;
     position: absolute;
 }
+
+.review-div{
+    width: 335px ;
+    height: 420px ;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 29px;
+}
+.review-header{
+    width: 100px;
+    margin-bottom: 3px;
+}
+.carousel{
+    width: 100%;
+    margin: auto;
+    height: 520px;
+    position: absolute;
+    top: 4310px;
+}
+
 .fa-star{
-    padding: 12px;
+    padding: 14px;
 }
 .john-image{
     margin-top: 30px;
 }
 .john-name{
     position: absolute;
-    top: 270px;
+    top: 280px;
 }
-.arrow-div{
-    top: 345px;
-    gap: 110px;
-}
-.fa-2xl{
-    padding-right: 9px;
-    padding-left: 9px;
-    width: 20px;
-}
-.circle-div{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 90px;
-    gap: 10px;
 
+.controls .arrow{
+    top: 76%;
 }
 footer{
     height: 800px;
@@ -1102,7 +1088,7 @@ footer{
     position: relative;
     background-size: 170px;
     background-position: bottom;
-    top: 3890px;
+    top: 3560px;
     padding-left: 40px;
     }
 .footer-h4{
@@ -1145,8 +1131,659 @@ th{
     }
 .display-9{
     margin-left: 68px;
-    bottom: -30px;
+    bottom: -35px;
     font-size:12px;
     }
 }
 
+
+
+@media only screen and (min-width:401px) and (max-width:700px){
+    .home-page{
+        margin-left: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+    .hamburger{
+        display: block;
+        margin-top: 35px;
+        margin-left: 299px;
+
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(12px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .nav-menu{
+        position: absolute;
+        left: -110%;
+        top: 70px;
+        background-color: white;
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        text-align: center;
+        margin: 2px;
+        height: 90vh;
+    
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        padding-right: 80px;
+        padding-top: 36px;
+       
+    }
+    .vector{
+        margin-left: 25px;
+    }
+    .foodly-icon{ margin-right:21%;
+        margin-top: 10px;
+        margin-left: 0px; 
+    }
+    
+    
+.fa-facebook-f{
+    color: #851D41;
+}
+.fa-instagram{
+    color: #851D41;
+}
+.fa-whatsapp{
+    color: #851D41;
+}
+.login-button{
+        margin-left: 10px;
+         margin-top: 0px;
+ }
+ 
+.socials-div{
+    margin: 0;
+    justify-content: center;
+}
+.socials{
+    margin-left: 12px;
+    background-color:#E5E5E5;}
+    
+.left-div{
+    width: 162px;
+    height: 570px;
+    background-color: #851D41;
+}
+
+.food-img{
+    top: 115px;
+    right: 80px;}
+.swallow{
+    width: 160px;
+}
+.sapa-text{
+    top: 298px;
+    left: 40px;
+}
+.sapa-paragraph{
+    font-size: 16px;
+    font-weight: light;
+    
+}
+.order-button{
+    height:25px;
+    font-size: 10px;
+    margin: 12px 0;
+}
+.sapa-h3{
+    font-size: 20px;  
+}
+.about-us{
+    width: 100%;
+    height: 1000px;
+    background-color: transparent;
+    padding-left: 35px;
+    position: absolute;
+    top: 640px;
+    
+}
+.about-us-h2{
+    margin-bottom: 55px;
+}
+.about-header{
+    width: 100px;
+    margin-bottom: 3px;
+}
+.foodly-about1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;}
+    
+.foodly-about1-h4-p{
+    position: absolute;
+    top: 370px;
+    left: 0px;
+    right: 0;
+}
+.foodly-about1-h4-p p{
+    font-size: 16px;
+    padding-top: 10px;
+}
+.header{
+    font-size: 18px;
+}
+.group21{
+    width:239px;
+    margin-left: -30px;
+    
+}
+
+.foodly-about2{
+    margin-top: 30px;
+    position: relative;
+}
+
+.masa{
+    position: absolute;
+    width: 249px;
+    top: 150px;
+    left: 35px;
+   
+}
+
+.foodly-about2-h4-p{
+    position: absolute;
+    top: 440px;
+    left: 0px;
+
+}
+.menu{
+    width: 100%;
+    height: 2290px;
+    background-color: transparent;
+    padding-left: 0px;
+    position: absolute;
+    top: 1590px;
+    padding-top: 30px;
+
+    
+}
+
+.menu-h2{
+    margin-bottom: 55px;
+    padding-left: 35px;
+}
+
+.menu-header{
+    width: 130px;
+    margin-bottom: 3px;
+}
+.food-menu{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+}
+.food-items, .food-items2, .food-items3, .food-items5{
+    width: 175px;  
+    margin-top: 5px;
+    margin-left: 45px;
+    height: 180px;
+
+}
+.food-container, .food-container2{
+    width: 260px;
+    height: 380px;
+
+
+}
+.shop-now-button, .shop-now-button2{
+    margin: 5px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.review-h2{
+    margin-bottom: 10px;
+    padding-left: 40px;
+    bottom: 0px;
+    top: 4290px;
+    position: absolute;
+}
+
+.review-div{
+    width: 355px ;
+    height: 390px ;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 29px;
+}
+.review-header{
+    width: 100px;
+    margin-bottom: 3px;
+}
+.carousel{
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    position: absolute;
+    top: 4325px;
+}
+
+.fa-star{
+    padding: 14px;
+}
+.john-image{
+    margin-top: 30px;
+}
+.john-name{
+    position: absolute;
+    top: 255px;
+}
+
+.controls .arrow{
+    top: 75%;
+}
+.right{
+    margin-right: 30px;
+}
+.left{
+    margin-left: 20px;
+}
+footer{
+    height: 800px;
+    margin-top: 100px;
+    padding-top: 60px; 
+    position: relative;
+    top: 3560px;
+    background-size: 190px;
+    background-position: bottom;
+    }
+.footer-h4{
+    margin-left: 10px;
+    }
+input{
+    width:275px;
+    padding: 25px;
+    margin-left: 9px;
+    margin-top: 33px;
+    }
+button{
+    margin-top: 20px;
+    margin-left: 90px;
+    }
+table{
+    margin: 0;
+     }
+.tableheader{
+    margin-bottom: 30px;   
+    }
+.foodly{
+    letter-spacing: 3px;} 
+td{
+    padding-left: 18px;
+    opacity: 0.5;
+    font-size: 12px;
+    padding-bottom: 18px;
+    }
+th{
+    padding-left: 18px;
+    padding-bottom: 18px;
+    font-size: 11px;
+    }
+
+.fa-utensils{
+    margin-right: 5px;
+    }
+.display-9{
+    margin-left: 100px;
+    bottom: -35px;
+    font-size:12px;
+    }
+}
+@media only screen and (min-width:760px) and (max-width:1110px){
+    .home-page{
+        margin-left: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+    .hamburger{
+        display: block;
+        margin-top: 35px;
+        margin-left: 599px;
+
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(12px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .nav-menu{
+        position: absolute;
+        left: -110%;
+        top: 70px;
+        background-color: white;
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        text-align: center;
+        margin: 2px;
+        height: 90vh;
+    
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        padding-right: 80px;
+        padding-top: 76px;
+        font-size: 20px;
+       
+    }
+    .vector{
+        margin-left: 59px;
+        width: 53px;
+    }
+    .foodly-icon{ margin-right:21%;
+        margin-top: 10px;
+        margin-left: 5px; 
+        font-size: 20px;
+    }
+    
+    
+.fa-facebook-f{
+    color: #851D41;
+    width: 34px;
+    height: 34px;
+    padding-block: 10px;
+}
+.fa-instagram{
+    color: #851D41;
+    width: 34px;
+    height: 34px;
+    padding-block: 10px;
+
+}
+.fa-whatsapp{
+    color: #851D41;
+    width: 34px;
+    height: 34px;
+    padding-block: 10px;
+}
+.login-button{
+        margin-left: 10px;
+        margin-top: 0px;
+ }
+ 
+.socials-div{
+    margin: 0;
+    justify-content: center;
+}
+.socials{
+    margin-left: 12px;
+    background-color:#E5E5E5;
+    width: 53px;
+    height: 53px;
+    
+}
+    
+.left-div{
+    width: 262px;
+    height: 600px;
+}
+.food-img{
+    top: 155px;
+    right: 90px;}
+.swallow{
+    width: 260px;
+}
+.sapa-text{
+    top: 208px;
+    left: 60px;
+}
+.sapa-paragraph{
+    font-size: 25px;
+    
+    
+}
+.order-button{
+    height:45px;
+    font-size: 17px;
+    margin: 12px 0;
+}
+.sapa-h3{
+    font-size: 20px;  
+}
+.about-us{
+    width: 100%;
+    height: 1000px;
+    background-color: transparent;
+    padding-left: 59px;
+    position: absolute;
+    top: 660px;
+    
+}
+.about-us-h2{
+    margin-bottom: 75px;
+}
+.about-header{
+    width: 240px;
+    margin-bottom: 3px;
+}
+
+.foodly-about1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    
+   }
+  
+.foodly-about1-h4-p{
+    font-size: 16px;
+    padding-top: 10px; 
+    top: 140px;
+}
+.group21{
+    width: 299px;}
+
+.header{
+    font-size: 20px;}
+  
+
+
+.foodly-about2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+
+.masa{
+    position: absolute;
+    width: 249px;
+    top: 150px;
+    left: 35px;
+   
+}
+/*
+.foodly-about2-h4-p{
+    position: absolute;
+    top: 440px;
+    left: 0px;
+
+}*/
+.menu{
+    width: 100%;
+    height: 2290px;
+    background-color: transparent;
+    padding-left: 0px;
+    position: absolute;
+    top: 1590px;
+    padding-top: 30px;
+
+    
+}
+
+.menu-h2{
+    margin-bottom: 55px;
+    padding-left: 35px;
+}
+
+.menu-header{
+    width: 130px;
+    margin-bottom: 3px;
+}
+.food-menu{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+}
+.food-items, .food-items2, .food-items3, .food-items5{
+    width: 175px;  
+    margin-top: 5px;
+    margin-left: 45px;
+    height: 180px;
+
+}
+.food-container, .food-container2{
+    width: 260px;
+    height: 380px;
+
+
+}
+.shop-now-button, .shop-now-button2{
+    margin: 5px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.review-h2{
+    margin-bottom: 10px;
+    padding-left: 40px;
+    bottom: 0px;
+    top: 4290px;
+    position: absolute;
+}
+
+.review-div{
+    width: 355px ;
+    height: 390px ;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 29px;
+}
+.review-header{
+    width: 100px;
+    margin-bottom: 3px;
+}
+.carousel{
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    position: absolute;
+    top: 4325px;
+}
+
+.fa-star{
+    padding: 14px;
+}
+.john-image{
+    margin-top: 30px;
+}
+.john-name{
+    position: absolute;
+    top: 255px;
+}
+
+.controls .arrow{
+    top: 75%;
+}
+.right{
+    margin-right: 30px;
+}
+.left{
+    margin-left: 20px;
+}
+footer{
+    height: 800px;
+    margin-top: 100px;
+    padding-top: 60px; 
+    position: relative;
+    top: 3560px;
+    background-size: 190px;
+    background-position: bottom;
+    }
+.footer-h4{
+    margin-left: 10px;
+    }
+input{
+    width:275px;
+    padding: 25px;
+    margin-left: 9px;
+    margin-top: 33px;
+    }
+button{
+    margin-top: 20px;
+    margin-left: 90px;
+    }
+table{
+    margin: 0;
+     }
+.tableheader{
+    margin-bottom: 30px;   
+    }
+.foodly{
+    letter-spacing: 3px;} 
+td{
+    padding-left: 18px;
+    opacity: 0.5;
+    font-size: 12px;
+    padding-bottom: 18px;
+    }
+th{
+    padding-left: 18px;
+    padding-bottom: 18px;
+    font-size: 11px;
+    }
+
+.fa-utensils{
+    margin-right: 5px;
+    }
+.display-9{
+    margin-left: 100px;
+    bottom: -35px;
+    font-size:12px;
+    } 
+
+
+
+
+
+
+
+
+
+
+}
