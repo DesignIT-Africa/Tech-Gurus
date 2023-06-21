@@ -1,0 +1,1141 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    align-self: auto;
+}
+
+.home-page{
+    background-color: white;
+     margin: 0px;
+     padding: 0px;
+     width: 100%;
+     height: 100vh;
+ }
+ 
+ nav{
+     width: 100%;
+     height: 10%;
+     background-color: white;
+     margin: 0;
+ }
+ .vector{
+     margin-left: 50px;
+ }
+ .foodly-icon{ margin-right:30%;
+         letter-spacing: 7px; 
+         list-style-type: none; 
+         margin-left: 60px; 
+ }
+ .nav-link{
+     transition: 0.2s ease;
+     color: rgba(28, 49, 68, 0.75);
+ }
+ .nav-link:hover{
+     color:#1C3144;
+ }
+ .login-button{
+     background-color: #FFBA08;
+     border-radius: 5px;
+     height:30px;
+     width:90px;
+     border: none;
+ }
+ .login-link{
+         color: white;
+ }
+ .about{
+     color: rgba(28, 49, 68, 0.75);
+ }
+ ul{
+     list-style-type: none;
+     }
+ li {
+     float: left;
+     padding-top: 20px;
+ }
+ .nav-item{
+     padding-left: 60px;    
+ }
+ li a{
+     text-decoration: none;
+     color:#1C3144;    
+ }
+ .active{
+     color: #FFBA08;
+ }
+ .fa-facebook-f{
+    width:  16px;
+   height: 16px;
+   padding: 3.5px 4px;
+    color: #851D41;
+ }
+ .fa-instagram{
+    width:  14px;
+    height: 14px;
+    padding: 2px 5px;
+    color: #851D41;
+ }
+ .fa-whatsapp{
+    width:  14px;
+   height: 14px;
+   padding: 2px 5px;
+     color: #851D41;
+ }
+ 
+ .socials-div{
+     display: flex;
+     gap: 10px;   
+ }
+ .socials{
+    margin: 2px 0;
+    width: 24px;
+    height: 24px;  
+     border-radius: 50%;
+     background-color:#E5E5E5;
+     
+     
+ }
+ 
+ .hamburger{
+     cursor: pointer;
+     display: inline-block;
+     margin-top: 20px;
+     margin-left: 30px;
+     display: none;
+ 
+ }
+ .bar{
+     display:block;
+     width: 25px;
+     height: 5px;
+     margin: 5px auto;
+     transition: all 0.3s ease-in-out;
+     background-color: rgb(218, 58, 58);
+     -webkit-transition: all 0.3s ease-in-out;
+ }
+.menu-banner{
+    margin-bottom: 30px;
+
+}
+
+.menu{
+    width: 100%;
+    height: 1200px;
+    background-color: transparent;
+    border: none;
+    padding-top: 15px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.menu-h2{
+    margin-bottom: 50px;
+    padding-left: 120px;
+}
+
+.menu-header{
+    color: #FFBA08;
+    border: 2px solid;
+    width: 40%;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.food-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    align-content: center;   
+}
+.food-items{
+    border: 1px solid #FFBA08;
+    border-radius: 10px;
+    width: 245px;  
+    margin-top: 5px;
+    margin-left: 49px;
+    height: 280px;
+    object-fit: contain;
+}
+.food-container{
+    width: 340px;
+    height: 480px;
+    background-color: #851D41;
+    border-radius: 30px;
+}
+.shop-now-header{
+    padding: 4px 15px;
+}
+.food-name{
+    color: white;
+    text-align: center;
+    margin: 30px 0;   
+}
+.shop-now-button{
+    width: 145px;
+    height: 50px;
+    border: 1px  solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    margin: 5px;
+    margin-left: 105px;
+    margin-top: 30px;
+}
+.shop-now-link{
+    text-decoration: none;
+    color: white;
+}
+.food-name2{
+    color: #1C3144;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.food-container2{
+    width: 340px;
+    height: 480px;
+    background-color:#FFBA08;
+    border-radius: 30px;
+}
+
+.food-items2{
+    border: 1px solid #851D41;
+    border-radius: 10px;
+    width: 245px;  
+    margin-top: 5px;
+    margin-left: 49px;
+    height: 280px;
+    object-fit: contain;
+}
+.shop-now-link2{
+    text-decoration: none;
+    color: #1C3144;
+}
+
+.shop-now-button2{
+    width: 145px;
+    height: 50px;
+    border: 1px  solid #1C3144;
+    border-radius: 5px;
+    background-color: transparent;
+    margin: 5px;
+    margin-left: 105px;
+    margin-top: 30px;
+}
+
+.shop-now-header2{
+    padding: 4px 15px;
+}
+
+.food-items3{
+    border: 1px solid #FFBA08;
+    border-radius: 10px;
+    width: 245px;  
+    margin-top: 5px;
+    margin-left: 49px;
+    height: 280px;
+    object-fit: contain;
+}
+
+.food-items5{
+    border: 1px solid #FFBA08;
+    border-radius: 10px;
+    width: 245px;  
+    margin-top: 5px;
+    margin-left: 49px;
+    height: 280px;
+    object-fit: contain;
+}
+footer{
+    
+    background-color: #E5E5E5;;
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    border: none;
+    background-image: url("../media/Group\ 24\(1\).png");
+    background-repeat: no-repeat;
+    background-size: 203px;
+    background-position: right bottom;
+    padding:60px; 
+    position: relative;
+}
+.footer-h4{
+    margin-left: 65px;
+} 
+input{
+    border: 1px solid #851D41;
+    width:450px;
+    height: 43px;
+    padding: 15px;
+    margin-left: 280px;
+    background-color: white;
+    margin-top: 3px;
+}
+.subscribe-button{
+    border: none;
+    width:100px;
+    height: 43.5px;
+    background-color: #851D41;
+    color: white;
+}
+.tableheader{
+    width:69%;
+    margin-top: 40px;
+    height: 3px;
+    background-color:  #1C3144;
+    margin-left: 65px;
+}
+table{
+    margin:45px;
+    position: relative;
+ }
+ .foodly{
+    letter-spacing: 7px; 
+    padding-left:9px;
+ }
+ .first-tabledata{
+    padding-left:9px;
+    }
+td{
+     padding-left: 140px;
+     padding-bottom: 10px;
+     opacity: 0.5;
+}
+th{
+    padding-left: 140px;
+    padding-bottom: 10px;
+}
+.layer2{
+    
+    margin-right: 3px;
+
+}
+.display-9{
+    margin-left: 650px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 16px;
+    opacity: 0.5;
+}
+
+/* responsiveness*/
+
+@media only screen and (min-width:300px) and (max-width:350px){
+    .home-page{
+        margin-left: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+    .hamburger{
+        display: block;
+        margin-top: 20px;
+        margin-left: 250px;
+
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(12px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .nav-menu{
+        position: absolute;
+        left: -110%;
+        top: 70px;
+        background-color: white;
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        text-align: center;
+        margin: 2px;
+        height: 90vh;
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        padding-right: 30%;
+        padding-top: 34px;
+       
+    }
+    .vector{
+        margin-left: 15px;    
+    }
+    .foodly-icon{
+         margin-right:20%;
+        margin-top: 1px;
+        margin-left: 0px; 
+        font-size: 15px;
+        position: absolute;
+        top: 0px;
+    }
+    
+    .login-button{
+        margin-left: 10px;
+         margin-top: 0px;
+ }
+ 
+.socials-div{
+    justify-content: center;
+}
+.fa-facebook-f{
+    color: #851D41;
+    padding-inline: 2px;
+}
+.fa-instagram{
+    color: #851D41;
+    padding-inline: 1px;
+
+}
+.fa-whatsapp{
+    color: #851D41;
+    padding-inline: 1px;
+
+}
+.socials{
+    margin-left: 2px;
+    background-color:#E5E5E5;}
+    
+
+.banner{
+    height: 250px;
+}
+
+.menu-h2{
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+.menu{
+
+    padding-top: 1px;
+    margin-top: 40px;
+    margin-bottom: 30px;}
+
+
+.menu-header{
+    width: 20%;
+    margin-left: 15px;
+    display: inline-block;
+}
+.food-menu{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-items, .food-items2, .food-items3, .food-items5{
+    width: 175px;  
+    margin-top: 5px;
+    margin-left: 45px;
+    height: 180px;
+
+}
+.food-container, .food-container2{
+    width: 260px;
+    height: 380px;
+
+
+}
+.shop-now-button, .shop-now-button2{
+    margin: 5px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+footer{
+    height: 800px;
+    margin-top: 100px;
+    padding-top: 60px; 
+    position: relative;
+    background-size: 170px;
+    background-position: bottom;
+    top: 1300px;
+    padding-left: 40px;
+    }
+.footer-h4{
+     margin-left: 0px;
+     font-size: 17px;
+    }
+input{
+    width:255px;
+    padding: 20px;
+    margin-left: 0;
+    margin-top: 33px;
+    }
+button{
+    margin-top: 20px;
+    margin-left: 85px;
+    }
+table{
+    margin:0px;
+    
+     }
+.tableheader{
+    margin-bottom: 30px;   
+    }
+.foodly{
+    letter-spacing: 3px;} 
+td{
+    padding-left: 8px;
+    opacity: 0.5;
+    font-size: 11.5px;
+    padding-bottom: 18px;
+    }
+    .layer2{
+        width:22px;
+    }
+th{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-size: 10px;
+    }
+.display-9{
+    margin-left: 68px;
+    bottom: -35px;
+    font-size:12px;
+    }
+}
+@media only screen and (min-width:360px) and (max-width:400px){
+    .home-page{
+        margin-left: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+    nav{
+        height: 8%;
+    }
+    .hamburger{
+        display: block;
+        margin-top: 35px;
+        margin-left: 269px;
+
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(12px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .nav-menu{
+        position: absolute;
+        left: -110%;
+        top: 70px;
+        background-color: white;
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        text-align: center;
+        margin: 2px;
+        height: 90vh;
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        padding-right: 30%;
+        padding-top: 56px;
+       
+    }
+    .vector{
+        margin-left: 25px; 
+        width: 38px;   
+    }
+    .foodly-icon{
+         margin-right:20%;
+        margin-top: 8px;
+        margin-left: 0px; 
+        position: absolute;
+        top: 5px;
+    }
+    
+    .login-button{
+        margin-left: 10px;
+         margin-top: 0px;
+ }
+ 
+.socials-div{
+    justify-content: center;
+}
+.fa-facebook-f{
+    color: #851D41;
+    padding-inline: 2px;
+}
+.fa-instagram{
+    color: #851D41;
+    padding-inline: 1px;
+
+}
+.fa-whatsapp{
+    color: #851D41;
+    padding-inline: 1px;
+
+}
+.socials{
+    margin-left: 2px;
+    background-color:#E5E5E5;}
+    
+
+.banner{
+    height: 350px;
+}
+
+.menu-h2{
+    margin-bottom: 30px;
+    padding-left: 25px;
+}
+.menu{
+
+    padding-top: 1px;
+    margin-top: 40px;
+    margin-bottom: 30px;}
+
+
+.menu-header{
+    width: 22%;
+    margin-left: 15px;
+    display: inline-block;
+}
+.food-menu{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-items, .food-items2, .food-items3, .food-items5{
+    width: 175px;  
+    margin-top: 5px;
+    margin-left: 45px;
+    height: 180px;
+
+}
+.food-container, .food-container2{
+    width: 260px;
+    height: 380px;
+
+
+}
+.shop-now-button, .shop-now-button2{
+    margin: 5px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+footer{
+    height: 820px;
+    margin-top: 100px;
+    padding-top: 60px; 
+    position: relative;
+    background-size: 170px;
+    background-position: bottom;
+    top: 1297px;
+    padding-left: 40px;
+    }
+.footer-h4{
+     margin-left: 10px;
+     font-size: 17px;
+    }
+input{
+    width:255px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 33px;
+    }
+button{
+    margin-top: 20px;
+    margin-left: 85px;
+    }
+table{
+    margin:0px;
+    
+     }
+.tableheader{
+    margin-bottom: 30px;   
+    }
+.foodly{
+    letter-spacing: 3px;} 
+
+td{
+    padding-left: 10px;
+    opacity: 0.5;
+    font-size: 13px;
+    padding-bottom: 18px;
+    }
+    .layer2{
+        width:25px;
+    }
+th{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    }
+.display-9{
+    margin-left: 98px;
+    bottom: -35px;
+    font-size:12px;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:700px){
+    .home-page{
+        margin-left: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+    nav{
+        height: 8%;
+    }
+    .hamburger{
+        display: block;
+        margin-top: 33px;
+        margin-left: 299px;
+
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(12px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .nav-menu{
+        position: absolute;
+        left: -110%;
+        top: 70px;
+        background-color: white;
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        text-align: center;
+        margin: 2px;
+        height: 90vh;
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        padding-right: 20%;
+        padding-top: 66px;
+       
+    }
+    .vector{
+        margin-left: 25px; 
+          
+    }
+    .foodly-icon{
+         margin-right:21%;
+        margin-top: 13px;
+        margin-left: 0px; 
+        position: absolute;
+        top: 0px;
+    }
+    
+    .login-button{
+        margin-left: 10px;
+         margin-top: 0px;
+ }
+ 
+.socials-div{
+    justify-content: center;
+}
+.fa-facebook-f{
+    color: #851D41;
+    padding-inline: 0px;
+}
+.fa-instagram{
+    color: #851D41;
+    padding-inline: 0px;
+
+}
+.fa-whatsapp{
+    color: #851D41;
+    padding-inline: 0px;
+
+}
+.socials{
+    margin-left: 2px;
+    background-color:#E5E5E5;}
+    
+
+.banner{
+    height: 350px;
+}
+
+.menu-h2{
+    margin-bottom: 30px;
+    padding-left: 25px;
+}
+.menu{
+
+    padding-top: 1px;
+    margin-top: 40px;
+    margin-bottom: 30px;}
+
+
+.menu-header{
+    width: 26%;
+    margin-left: 15px;
+    display: inline-block;
+}
+.food-menu{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-items, .food-items2, .food-items3, .food-items5{
+    width: 175px;  
+    margin-top: 5px;
+    margin-left: 45px;
+    height: 180px;
+
+}
+.food-container, .food-container2{
+    width: 260px;
+    height: 380px;
+
+
+}
+.shop-now-button, .shop-now-button2{
+    margin: 5px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+footer{
+    height: 800px;
+    margin-top: 100px;
+    padding-top: 60px; 
+    position: relative;
+    top: 1310px;
+    background-size: 190px;
+    background-position: bottom;
+    }
+.footer-h4{
+    margin-left: 10px;
+    }
+input{
+    width:275px;
+    padding: 25px;
+    margin-left: 9px;
+    margin-top: 33px;
+    }
+button{
+    margin-top: 20px;
+    margin-left: 90px;
+    }
+table{
+    margin: 0;
+     }
+.tableheader{
+    margin-bottom: 30px;   
+    }
+.foodly{
+    letter-spacing: 3px;} 
+td{
+    padding-left: 18px;
+    opacity: 0.5;
+    font-size: 12px;
+    padding-bottom: 18px;
+    }
+th{
+    padding-left: 18px;
+    padding-bottom: 18px;
+    font-size: 11px;
+    }
+
+.fa-utensils{
+    margin-right: 5px;
+    }
+.display-9{
+    margin-left: 100px;
+    bottom: -35px;
+    font-size:12px;
+    }
+}
+
+@media only screen and (min-width:760px) and (max-width:1110px){
+    .home-page{
+        margin-left: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+    .hamburger{
+        display: block;
+        margin-top: 60px;
+        margin-left: 599px;
+
+    }
+    nav{
+        height: 7%;
+    }
+    
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(12px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .nav-menu{
+        position: absolute;
+        left: -110%;
+        top: 70px;
+        background-color: white;
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        text-align: center;
+        margin: 2px;
+        height: 90vh;
+    
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        padding-right: 66px;
+        padding-top: 86px;
+        font-size: 20px;
+       
+    }
+    .vector{
+        margin-left: 35px;
+        width: 54px; 
+          
+    }
+    .foodly-icon{
+         margin-right:21%;
+        margin-top: 13px;
+        margin-left: 20px; 
+        position: absolute;
+        top: 6px;
+        font-size: 25px;
+    }
+    
+    
+    .login-button{
+        margin-left: 10px;
+         margin-top: 0px;
+         height: 50px;
+         width: 130px;
+ }
+ 
+.socials-div{
+    justify-content: center;
+}
+.fa-facebook-f{
+    color: #851D41;
+    padding-inline: 0px;
+}
+.fa-instagram{
+    color: #851D41;
+    padding-inline: 0px;
+
+}
+.fa-whatsapp{
+    color: #851D41;
+    padding-inline: 0px;
+
+}
+.socials{
+    margin-left: 2px;
+    background-color:#E5E5E5;
+}
+
+.menu-h2{
+    margin-bottom: 50px;
+    padding-left: 25px;
+}
+.menu{
+    padding-top: 1px;
+    margin-top: 80px;
+    margin-bottom: 30px;}
+.menu-header{
+    width:34%;
+}
+.food-menu{
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.food-items, .food-items2, .food-items3, .food-items5{
+    width: 175px;  
+    margin-top: 5px;
+    margin-left: 45px;
+    height: 180px;
+
+}
+.food-container, .food-container2{
+    width: 260px;
+    height: 380px;
+
+
+}
+.shop-now-button, .shop-now-button2{
+    margin: 5px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+footer{
+    height: 900px;
+    margin-top: 100px;
+    padding-top: 60px; 
+    position: relative;
+    top: 140px;
+    background-size: 190px;
+    background-position: bottom;
+    }
+    input{
+        width:475px;
+        padding: 29px;
+        margin-left: 89px;
+        margin-top: 33px;
+        }
+        .subscribe-button{
+            width: 140px;
+            height: 50px;
+        }
+    button{
+        margin-top: 30px;
+        margin-left: 250px;
+    }
+    .footer-h4{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    table{
+        margin: 25px;
+         }
+    .tableheader{
+        width: 500px;
+        margin-bottom: 30px;   
+        }
+    .foodly{
+        letter-spacing: 5px;} 
+    td{
+        padding-left: 75px;
+        opacity: 0.5;
+        font-size: 20px;
+        padding-bottom: 20px;
+        }
+    th{
+        padding-left: 70px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        }
+    .fa-utensils{
+        margin-right: 10px;
+        }
+    .display-9{
+        margin-left: 265px;
+        bottom: -38px;
+        font-size: 16px;
+        }}
+        
+@media only screen and (min-width:1200px) and (max-width:1400px){
+    .vector{
+        margin-left: 48px;
+        
+    }
+    
+ .foodly-icon{ margin-right:28%;}
+    
+    .nav-item{
+        padding-left: 30px;    
+    } 
+    .fa-facebook-f{
+        width:  18px;
+        height: 18px;
+        padding: 5px 5px;
+        
+     }
+     .fa-instagram{
+        width:  19px;
+       height: 19px;
+       padding: 4px 5px;
+     }
+     .fa-whatsapp{
+        width:  19px;
+       height: 19px;
+       padding: 4px 5px;
+        
+     }
+     
+ .socials{
+    margin: 2px 0;
+    width: 28px;
+    height: 28px;  
+ }
+ .menu-header{
+    width:38%;
+}
+
+.menu-h2{
+    margin-bottom: 50px;
+    padding-left: 55px;
+}
+ .menu{
+    margin-bottom: -35px;
+ }   
+ 
+footer{
+    top: 0px;
+    }
+.footer-h4{
+    margin-left: auto;
+}
+table, .tableheader{
+    margin-left: 0;
+}
+    
+input{
+    margin-left: 40px;
+}
+button{
+    margin-left: 0px;
+}  
+.display-9{
+    margin-left: 640px;
+} 
+     
+
+
+
+
+}
+    
