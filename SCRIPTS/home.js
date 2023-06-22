@@ -53,19 +53,27 @@ const rightArrow = document.querySelector('.right');
 
 var sectionIndex = 0;
 
-rightArrow.addEventListener('click', function(){
-    sectionIndex = (sectionIndex < 3) ? sectionIndex +1 :3;
-    slider.style.transform = 'translate('+ (sectionIndex) * -25 +'%)';
+rightArrow.addEventListener('click', function () {
+
+    if (sectionIndex >= 3) {
+        sectionIndex = 0;
+    }
+    else { sectionIndex++; }
+    slider.style.transform = 'translate(' + (sectionIndex) * -25 + '%)';
 });
 
-leftArrow.addEventListener('click', function(){
-    sectionIndex = (sectionIndex > 3) ? sectionIndex - 1 :0;
-    slider.style.transform = 'translate('+ (sectionIndex) * -25 +'%)';
+leftArrow.addEventListener('click', function () {
+
+    if (sectionIndex <= 0) {
+        sectionIndex = 3;
+    }
+    else { sectionIndex--; }
+    slider.style.transform = 'translate(' + (sectionIndex) * -25 + '%)';
 });
 
 
-const hamburger= document.querySelector(".hamburger");
-const navItem= document.querySelector(".nav-menu");
+const hamburger = document.querySelector(".hamburger");
+const navItem = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
@@ -77,7 +85,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         hamburger.classList.remove("active");
         navItem.classList.remove("active");
 
-}))
+    }))
 
 
 
