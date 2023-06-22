@@ -111,7 +111,7 @@
      height: 5px;
      margin: 5px auto;
      transition: all 0.3s ease-in-out;
-     background-color: rgb(218, 58, 58);
+     background-color: #FFBA08;
      -webkit-transition: all 0.3s ease-in-out;
  }
 .menu-banner{
@@ -392,12 +392,12 @@ th{
 }
 .fa-instagram{
     color: #851D41;
-    padding-inline: 1px;
+    padding: 1px;
 
 }
 .fa-whatsapp{
     color: #851D41;
-    padding-inline: 1px;
+    padding: 1px;
 
 }
 .socials{
@@ -578,12 +578,13 @@ th{
 }
 .fa-instagram{
     color: #851D41;
-    padding-inline: 1px;
+    padding: 5px;
 
 }
 .fa-whatsapp{
     color: #851D41;
-    padding-inline: 1px;
+    padding: 5px;
+
 
 }
 .socials{
@@ -762,16 +763,16 @@ th{
 }
 .fa-facebook-f{
     color: #851D41;
-    padding-inline: 0px;
+    padding: 0px;
 }
 .fa-instagram{
     color: #851D41;
-    padding-inline: 0px;
+    padding: 1px ;
 
 }
 .fa-whatsapp{
     color: #851D41;
-    padding-inline: 0px;
+    padding: 1px;
 
 }
 .socials{
@@ -954,22 +955,27 @@ th{
     justify-content: center;
 }
 .fa-facebook-f{
-    color: #851D41;
-    padding-inline: 0px;
+    width: 30px;
+    height: 25px;
+    padding-block: 8px;
 }
 .fa-instagram{
-    color: #851D41;
-    padding-inline: 0px;
+    
+    width: 30px;
+    height: 25px;
+    padding-block: 7.5px;
 
 }
 .fa-whatsapp{
-    color: #851D41;
-    padding-inline: 0px;
-
+    
+    width: 30px;
+    height: 25px;
+    padding-block: 7.5px;
 }
 .socials{
     margin-left: 2px;
-    background-color:#E5E5E5;
+    width: 40px;
+    height: 40px;
 }
 
 .menu-h2{
